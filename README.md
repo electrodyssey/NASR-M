@@ -9,8 +9,7 @@ SYZYGY carrier board powered by ZYNQ7000 SOC
 Work in progress.
 
 
-
-
+[PDF schema is in schema-export folder](schema-export/NASR.pdf)
 
 
 
