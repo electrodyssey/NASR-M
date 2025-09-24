@@ -8287,6 +8287,30 @@
 		(members "ZYNQ_PWCTL_PGOOD" "ZYNQ_PWCTL_EN")
 	)
 	(rectangle
+		(start 13.335 136.525)
+		(end 86.36 168.275)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7025dcaa-ba1e-4366-b506-04a5f1f24e74)
+	)
+	(rectangle
+		(start 13.335 197.485)
+		(end 86.36 226.695)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7effd68c-c7d3-4b07-9b6b-1d5f75bdb89d)
+	)
+	(rectangle
 		(start 277.495 13.97)
 		(end 311.785 58.42)
 		(stroke
@@ -8298,9 +8322,21 @@
 		)
 		(uuid cb4e0377-17ad-4af4-a0b6-c84122925d46)
 	)
-	(text "master I2C to control\nthe SOC/Linux +3V3 / PS500"
+	(rectangle
+		(start 13.335 100.965)
+		(end 67.31 135.255)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d19e6606-3442-442a-a9ae-4de6d84fcee0)
+	)
+	(text "slave I2C from SOC/Linux\n+3V3 / PS500"
 		(exclude_from_sim no)
-		(at 13.716 205.486 0)
+		(at 14.478 202.692 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8350,6 +8386,16 @@
 		)
 		(uuid "415150a2-7ff3-40bb-92fc-50dd5ca02dc3")
 	)
+	(text "Variable voltage for SYZYGY"
+		(exclude_from_sim no)
+		(at 69.85 139.192 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6b8b3e6c-bdc6-444f-92b0-f7bf7232242e")
+	)
 	(text "I2C_MCU	I2C2\nI2C_SW	I2C1\n\n"
 		(exclude_from_sim no)
 		(at 13.97 222.758 0)
@@ -8390,6 +8436,16 @@
 			)
 		)
 		(uuid "e91046bb-ddb8-46e3-b84c-0eed8281b370")
+	)
+	(text "I2C4 is dedicated to clock"
+		(exclude_from_sim no)
+		(at 53.086 103.632 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f855abe5-80f0-4dfe-a591-6de140d4d0e9")
 	)
 	(text_box "SOC Boot config"
 		(exclude_from_sim no)
@@ -8992,10 +9048,6 @@
 		(uuid "1f84dad7-f176-4d68-aa9d-e2fff6ca8089")
 	)
 	(no_connect
-		(at 181.61 172.72)
-		(uuid "22ac1e0e-b121-4169-b746-054690232e9f")
-	)
-	(no_connect
 		(at 250.19 149.86)
 		(uuid "2cefb2dc-dfa2-4c79-8fd5-925a3a01a11d")
 	)
@@ -9198,10 +9250,6 @@
 	(no_connect
 		(at 250.19 132.08)
 		(uuid "e5033aae-8330-47c1-bcbd-802e3d60e6cc")
-	)
-	(no_connect
-		(at 181.61 170.18)
-		(uuid "e521b6dc-9750-42b9-97de-300fa170bf12")
 	)
 	(no_connect
 		(at 181.61 154.94)
@@ -9927,7 +9975,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 115.57) (xy 48.26 124.46)
+			(xy 48.26 119.38) (xy 48.26 124.46)
 		)
 		(stroke
 			(width 0)
@@ -10174,16 +10222,6 @@
 			(type default)
 		)
 		(uuid "1a388ea0-ade7-4867-aec2-c255b45407ea")
-	)
-	(wire
-		(pts
-			(xy 382.27 154.94) (xy 400.05 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a862f31-442c-4185-aa98-eb93c57cd12b")
 	)
 	(wire
 		(pts
@@ -10657,13 +10695,13 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 109.22) (xy 48.26 110.49)
+			(xy 162.56 170.18) (xy 181.61 170.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "33ad5614-e9e4-4ca0-ad53-cc565f04f1dc")
+		(uuid "3342bd96-106f-4120-b41b-299c72e39534")
 	)
 	(wire
 		(pts
@@ -10854,16 +10892,6 @@
 			(type default)
 		)
 		(uuid "3d0172c1-e627-4b54-9761-961e6b2666ea")
-	)
-	(wire
-		(pts
-			(xy 382.27 152.4) (xy 400.05 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d3bdd8a-4e26-4165-aec3-76d1ec1dd34f")
 	)
 	(wire
 		(pts
@@ -11184,6 +11212,16 @@
 			(type default)
 		)
 		(uuid "52393897-c878-4624-b388-2049fc50ee09")
+	)
+	(wire
+		(pts
+			(xy 162.56 172.72) (xy 181.61 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52f2d565-a931-4cc2-99ce-1045ce05e54a")
 	)
 	(wire
 		(pts
@@ -13107,6 +13145,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 114.3) (xy 48.26 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfbb1a1f-904a-4e88-9cb4-33bbdb76e60c")
+	)
+	(wire
+		(pts
 			(xy 91.44 116.84) (xy 95.25 116.84)
 		)
 		(stroke
@@ -14175,6 +14223,16 @@
 		)
 		(uuid "152cea89-4178-419c-82f4-5c7970c0702a")
 	)
+	(label "CLK_CTL_I2C_SDA"
+		(at 163.83 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1530b46a-1d51-403a-9203-549eee76808c")
+	)
 	(label "XTALI"
 		(at 142.24 78.74 0)
 		(effects
@@ -14266,6 +14324,16 @@
 			(justify left bottom)
 		)
 		(uuid "226d9e16-e417-45fb-a2c4-0c70d3bbc7e6")
+	)
+	(label "CLK_CTL_I2C_SCL"
+		(at 163.83 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "232ad24c-7597-42a5-b5bf-ea5406685c11")
 	)
 	(label "{VIO_CTL}"
 		(at 13.97 151.13 0)
@@ -15345,16 +15413,6 @@
 		)
 		(uuid "b782476f-ff2d-45e4-b346-7100b7d3a3da")
 	)
-	(label "CLK_CTL_I2C_SDA"
-		(at 383.54 154.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b7eaaa04-7d71-4dec-9c6f-fe686feccdde")
-	)
 	(label "STATUS_LED_MCU"
 		(at 113.03 186.69 0)
 		(effects
@@ -15494,16 +15552,6 @@
 			(justify left bottom)
 		)
 		(uuid "d07e7648-6245-4482-be76-b8c90cec8f6d")
-	)
-	(label "CLK_CTL_I2C_SCL"
-		(at 383.54 152.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d18be4e4-4f48-4ce7-a1c0-7b5bdf693743")
 	)
 	(label "I2C_SW_SCL"
 		(at 330.2 121.92 0)
@@ -21180,7 +21228,7 @@
 	)
 	(symbol
 		(lib_id "GPWR3V3MCU:+3V3MCU")
-		(at 48.26 109.22 0)
+		(at 48.26 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21189,7 +21237,7 @@
 		(fields_autoplaced yes)
 		(uuid "615a7636-5493-4d45-93d5-14bf841631c8")
 		(property "Reference" "#PWR3V3MCU013"
-			(at 48.26 113.03 0)
+			(at 48.26 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21198,7 +21246,7 @@
 			)
 		)
 		(property "Value" "+3V3MCU"
-			(at 48.26 104.775 0)
+			(at 48.26 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21206,7 +21254,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 109.22 0)
+			(at 48.26 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21215,7 +21263,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 109.22 0)
+			(at 48.26 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21224,7 +21272,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 48.26 109.22 0)
+			(at 48.26 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24692,7 +24740,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 48.26 113.03 0)
+		(at 48.26 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24701,7 +24749,7 @@
 		(fields_autoplaced yes)
 		(uuid "a944e97b-b0f6-40e2-92b2-0b51ed5cc3e6")
 		(property "Reference" "R86"
-			(at 50.8 111.7599 0)
+			(at 50.8 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24710,7 +24758,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 50.8 114.2999 0)
+			(at 50.8 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24719,7 +24767,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 48.26 113.03 0)
+			(at 48.26 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24728,7 +24776,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 113.03 0)
+			(at 48.26 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24737,7 +24785,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 48.26 113.03 0)
+			(at 48.26 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24746,7 +24794,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C25744"
-			(at 48.26 113.03 0)
+			(at 48.26 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24755,7 +24803,7 @@
 			)
 		)
 		(property "Part" "0402WGF1002TCE"
-			(at 48.26 113.03 0)
+			(at 48.26 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24764,7 +24812,7 @@
 			)
 		)
 		(property "Mouser " ""
-			(at 48.26 113.03 0)
+			(at 48.26 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
