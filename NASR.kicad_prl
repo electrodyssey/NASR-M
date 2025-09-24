@@ -126,7 +126,7 @@
     "expanded_rows": [],
     "filter_by_net_name": true,
     "filter_by_netclass": true,
-    "filter_text": "vttref",
+    "filter_text": "clk_ctl",
     "group_by_constraint": false,
     "group_by_netclass": false,
     "show_unconnected_nets": false,
