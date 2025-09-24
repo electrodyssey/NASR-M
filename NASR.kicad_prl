@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 6,
     "active_layer_preset": "All [no GND, Eco]",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -126,7 +126,7 @@
     "expanded_rows": [],
     "filter_by_net_name": true,
     "filter_by_netclass": true,
-    "filter_text": "i2c_b",
+    "filter_text": "ddr1vddq",
     "group_by_constraint": false,
     "group_by_netclass": false,
     "show_unconnected_nets": false,
