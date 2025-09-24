@@ -9040,6 +9040,10 @@
 		(uuid "1be757d7-4750-43e9-b12f-56b2072d0b03")
 	)
 	(no_connect
+		(at 382.27 154.94)
+		(uuid "1c7e7bde-3e7f-4f44-955d-48bb8e412079")
+	)
+	(no_connect
 		(at 250.19 177.8)
 		(uuid "1e67878f-c325-4efc-8157-0cc09e2336e3")
 	)
@@ -9082,6 +9086,10 @@
 	(no_connect
 		(at 104.14 264.16)
 		(uuid "4169a316-839f-4712-9562-ca8083ad72b9")
+	)
+	(no_connect
+		(at 382.27 152.4)
+		(uuid "465c43a5-85d6-4475-b5e6-c82acfc648e9")
 	)
 	(no_connect
 		(at 181.61 119.38)
