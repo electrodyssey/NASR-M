@@ -7473,7 +7473,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C2936632"
+		(property "JLCPCB Part #" "C17477"
 			(at 154.94 241.3 0)
 			(effects
 				(font
@@ -7483,6 +7483,15 @@
 			)
 		)
 		(property "Mouser " ""
+			(at 154.94 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "0805W8F0000T5E"
 			(at 154.94 241.3 0)
 			(effects
 				(font
@@ -9260,7 +9269,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C2936632"
+		(property "JLCPCB Part #" "C17477"
 			(at 154.94 170.18 0)
 			(effects
 				(font
@@ -9270,6 +9279,15 @@
 			)
 		)
 		(property "Mouser " ""
+			(at 154.94 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "0805W8F0000T5E"
 			(at 154.94 170.18 0)
 			(effects
 				(font

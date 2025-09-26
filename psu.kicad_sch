@@ -14780,7 +14780,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C3152375"
+		(property "JLCPCB Part #" "C5154013"
 			(at 337.82 219.71 0)
 			(effects
 				(font
@@ -14789,7 +14789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "SC1210J3300F1CNRH"
+		(property "Part" "FRC1210J331TS"
 			(at 337.82 219.71 90)
 			(effects
 				(font
@@ -15502,7 +15502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50X50X10 SUNON MF50101V2-1000U-A99 maglev fan"
+		(property "Description" "50X50X10 SUNON MF50101V2-1000U-A99 maglev fan; alt: MF50100V1-1000C-A99"
 			(at 324.612 82.55 0)
 			(effects
 				(font
@@ -15541,6 +15541,15 @@
 			)
 		)
 		(property "Mouser " ""
+			(at 313.69 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property " LCSC Part #" "C456906"
 			(at 313.69 88.9 0)
 			(effects
 				(font
@@ -23225,7 +23234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "39-28-1243"
+		(property "Manufacturer_Part_Number" "DLL-5566-24A"
 			(at 57.15 818.415 0)
 			(effects
 				(font
@@ -23235,7 +23244,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C22365710"
 			(at 38.1 23.495 0)
 			(effects
 				(font

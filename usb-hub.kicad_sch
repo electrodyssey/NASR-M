@@ -9906,7 +9906,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C365221"
+		(property "JLCPCB Part #" "C2960681"
 			(at 144.78 92.71 0)
 			(effects
 				(font
@@ -9915,7 +9915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "HPCR0603F8K06K9"
+		(property "Part" "FRC0603F8061TS"
 			(at 144.78 92.71 0)
 			(effects
 				(font

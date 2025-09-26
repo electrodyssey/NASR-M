@@ -12180,7 +12180,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "GZ1608D601TF"
+		(property "Value" "BLM18AG601SN1D"
 			(at 177.8 25.438 0)
 			(effects
 				(font
@@ -12216,7 +12216,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C1002"
+		(property "JLCPCB Part #" "C19330"
 			(at 175.26 24.13 0)
 			(effects
 				(font
@@ -12225,7 +12225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "GZ1608D601TF"
+		(property "Part" "BLM18AG601SN1D"
 			(at 175.26 24.13 90)
 			(effects
 				(font
@@ -12792,7 +12792,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C2936632"
+		(property "JLCPCB Part #" "C17477"
 			(at 223.52 100.33 0)
 			(effects
 				(font
@@ -12802,6 +12802,15 @@
 			)
 		)
 		(property "Mouser " ""
+			(at 223.52 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "0805W8F0000T5E"
 			(at 223.52 100.33 90)
 			(effects
 				(font
@@ -15832,7 +15841,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C2936632"
+		(property "JLCPCB Part #" "C17477"
 			(at 137.16 248.92 0)
 			(effects
 				(font
@@ -15842,6 +15851,15 @@
 			)
 		)
 		(property "Mouser " ""
+			(at 137.16 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "0805W8F0000T5E"
 			(at 137.16 248.92 0)
 			(effects
 				(font
@@ -16814,7 +16832,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C2936632"
+		(property "JLCPCB Part #" "C17477"
 			(at 20.32 251.46 0)
 			(effects
 				(font
@@ -16824,6 +16842,15 @@
 			)
 		)
 		(property "Mouser " ""
+			(at 20.32 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "0805W8F0000T5E"
 			(at 20.32 251.46 0)
 			(effects
 				(font
@@ -16969,7 +16996,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C2936632"
+		(property "JLCPCB Part #" "C17477"
 			(at 224.79 242.57 0)
 			(effects
 				(font
@@ -16979,6 +17006,15 @@
 			)
 		)
 		(property "Mouser " ""
+			(at 224.79 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "0805W8F0000T5E"
 			(at 224.79 242.57 0)
 			(effects
 				(font

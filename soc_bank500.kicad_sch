@@ -25080,7 +25080,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C21189"
+		(property "JLCPCB Part #" "C2906974"
 			(at 97.79 50.8 0)
 			(effects
 				(font
@@ -25089,7 +25089,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "0603WAF0000T5E"
+		(property "Part" "FRC0603F0000TS"
 			(at 97.79 50.8 90)
 			(effects
 				(font
@@ -25306,7 +25306,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C21189"
+		(property "JLCPCB Part #" "C2906974"
 			(at 109.22 48.26 0)
 			(effects
 				(font
@@ -25315,7 +25315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "0603WAF0000T5E"
+		(property "Part" "FRC0603F0000TS"
 			(at 109.22 48.26 90)
 			(effects
 				(font

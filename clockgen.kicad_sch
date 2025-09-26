@@ -15925,7 +15925,7 @@
 				)
 			)
 		)
-		(property "Value" "GZ1608D601TF"
+		(property "Value" "BLM18AG601SN1D"
 			(at 73.6981 167.64 90)
 			(effects
 				(font
@@ -15960,7 +15960,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C1002"
+		(property "JLCPCB Part #" "C19330"
 			(at 73.66 171.45 0)
 			(effects
 				(font
@@ -15969,7 +15969,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "GZ1608D601TF"
+		(property "Part" "BLM18AG601SN1D"
 			(at 73.66 171.45 90)
 			(effects
 				(font
@@ -22825,7 +22825,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C21189"
+		(property "JLCPCB Part #" "C2906974"
 			(at 264.16 120.65 0)
 			(effects
 				(font
@@ -22834,7 +22834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "0603WAF0000T5E"
+		(property "Part" "FRC0603F0000TS"
 			(at 264.16 120.65 90)
 			(effects
 				(font
@@ -24597,7 +24597,7 @@
 				)
 			)
 		)
-		(property "Value" "GZ1608D601TF"
+		(property "Value" "BLM18AG601SN1D"
 			(at 73.6981 241.3 90)
 			(effects
 				(font
@@ -24632,7 +24632,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C1002"
+		(property "JLCPCB Part #" "C19330"
 			(at 73.66 245.11 0)
 			(effects
 				(font
@@ -24641,7 +24641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "GZ1608D601TF"
+		(property "Part" "BLM18AG601SN1D"
 			(at 73.66 245.11 90)
 			(effects
 				(font
@@ -25387,7 +25387,7 @@
 				)
 			)
 		)
-		(property "Value" "GZ1608D601TF"
+		(property "Value" "BLM18AG601SN1D"
 			(at 73.6981 218.44 90)
 			(effects
 				(font
@@ -25422,7 +25422,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C1002"
+		(property "JLCPCB Part #" "C19330"
 			(at 73.66 222.25 0)
 			(effects
 				(font
@@ -25431,7 +25431,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "GZ1608D601TF"
+		(property "Part" "BLM18AG601SN1D"
 			(at 73.66 222.25 90)
 			(effects
 				(font
@@ -27859,7 +27859,7 @@
 				)
 			)
 		)
-		(property "Value" "GZ1608D601TF"
+		(property "Value" "BLM18AG601SN1D"
 			(at 72.4281 194.31 90)
 			(effects
 				(font
@@ -27894,7 +27894,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C1002"
+		(property "JLCPCB Part #" "C19330"
 			(at 72.39 198.12 0)
 			(effects
 				(font
@@ -27903,7 +27903,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "GZ1608D601TF"
+		(property "Part" "BLM18AG601SN1D"
 			(at 72.39 198.12 90)
 			(effects
 				(font
@@ -29373,7 +29373,7 @@
 				)
 			)
 		)
-		(property "Value" "GZ1608D601TF"
+		(property "Value" "BLM18AG601SN1D"
 			(at 73.6981 265.43 90)
 			(effects
 				(font
@@ -29408,7 +29408,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C1002"
+		(property "JLCPCB Part #" "C19330"
 			(at 73.66 269.24 0)
 			(effects
 				(font
@@ -29417,7 +29417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "GZ1608D601TF"
+		(property "Part" "BLM18AG601SN1D"
 			(at 73.66 269.24 90)
 			(effects
 				(font
@@ -30360,7 +30360,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C21189"
+		(property "JLCPCB Part #" "C2906974"
 			(at 233.68 201.93 0)
 			(effects
 				(font
@@ -30369,7 +30369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "0603WAF0000T5E"
+		(property "Part" "FRC0603F0000TS"
 			(at 233.68 201.93 90)
 			(effects
 				(font
@@ -33591,7 +33591,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "GZ1608D601TF"
+		(property "Value" "BLM18AG601SN1D"
 			(at 227.33 31.788 0)
 			(effects
 				(font
@@ -33627,7 +33627,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C1002"
+		(property "JLCPCB Part #" "C19330"
 			(at 224.79 30.48 0)
 			(effects
 				(font
@@ -33636,7 +33636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "GZ1608D601TF"
+		(property "Part" "BLM18AG601SN1D"
 			(at 224.79 30.48 90)
 			(effects
 				(font

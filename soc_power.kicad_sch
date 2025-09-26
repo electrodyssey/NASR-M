@@ -22653,7 +22653,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C23248"
+		(property "JLCPCB Part #" "C2998144"
 			(at 27.305 50.8 0)
 			(effects
 				(font
@@ -22662,7 +22662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "0603WAF8871T5E"
+		(property "Part" "FRC0603F8871TS"
 			(at 27.305 50.8 90)
 			(effects
 				(font
@@ -28729,7 +28729,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C2936632"
+		(property "JLCPCB Part #" "C17477"
 			(at 102.235 90.17 0)
 			(effects
 				(font
@@ -28739,6 +28739,15 @@
 			)
 		)
 		(property "Mouser " ""
+			(at 102.235 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "0805W8F0000T5E"
 			(at 102.235 90.17 90)
 			(effects
 				(font
@@ -29061,7 +29070,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C565652"
+		(property "JLCPCB Part #" "C105920"
 			(at 29.21 18.415 0)
 			(effects
 				(font
@@ -29070,7 +29079,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "FM21X122K251PXG"
+		(property "Part" "C0805N122J050T"
 			(at 29.21 18.415 90)
 			(effects
 				(font
@@ -33982,7 +33991,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C23112"
+		(property "JLCPCB Part #" "C2960681"
 			(at 81.915 22.225 0)
 			(effects
 				(font
@@ -33992,6 +34001,15 @@
 			)
 		)
 		(property "Mouser " ""
+			(at 81.915 22.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "FRC0603F8061TS"
 			(at 81.915 22.225 0)
 			(effects
 				(font
