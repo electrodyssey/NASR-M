@@ -13030,6 +13030,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C19944603"
+			(at 229.87 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "DS1095-WNR0"
+			(at 229.87 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "099dcbea-59ff-443e-a725-ce08a827a7e5")
 		)
