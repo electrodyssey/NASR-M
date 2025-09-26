@@ -1697,7 +1697,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "NASR.net",
-      "plot": "fabout/nasr-m-r-D.0.9.3/",
+      "plot": "fabout/nasr-m-r-D.0.9.4-grb-080e3b3-20250926/",
       "pos_files": "fabout/nasr-m-r-D.0.9.3-smd/",
       "specctra_dsn": "",
       "step": "",
@@ -1708,7 +1708,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "fabout\\nasr-m-r-D.0.9.3-smd\\NASR-d.0.9.3.bom.csv",
+    "bom_export_filename": "fabout\\nasr-m-r-D.0.9.4-smd\\NASR-d.0.9.4.bom.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
