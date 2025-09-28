@@ -126,7 +126,7 @@
     "expanded_rows": [],
     "filter_by_net_name": true,
     "filter_by_netclass": true,
-    "filter_text": "1V8_S",
+    "filter_text": "i2c_psszg3",
     "group_by_constraint": false,
     "group_by_netclass": false,
     "show_unconnected_nets": false,
