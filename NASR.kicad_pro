@@ -93,7 +93,7 @@
         "version": 2
       },
       "rule_severities": {
-        "annular_width": "warning",
+        "annular_width": "ignore",
         "clearance": "warning",
         "connection_width": "warning",
         "copper_edge_clearance": "error",

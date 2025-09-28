@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 16,
+    "active_layer": 0,
     "active_layer_preset": "All [no GND, Eco]",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -104,7 +104,7 @@
     ],
     "col_widths": [
       502,
-      286,
+      157,
       151,
       129,
       116,
@@ -126,7 +126,7 @@
     "expanded_rows": [],
     "filter_by_net_name": true,
     "filter_by_netclass": true,
-    "filter_text": "i2c_psszg3",
+    "filter_text": "ddr_",
     "group_by_constraint": false,
     "group_by_netclass": false,
     "show_unconnected_nets": false,
