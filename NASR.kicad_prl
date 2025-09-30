@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 2,
     "active_layer_preset": "All [no GND, Eco]",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -20,7 +20,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": false,
+      "lockedItems": true,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -126,7 +126,7 @@
     "expanded_rows": [],
     "filter_by_net_name": true,
     "filter_by_netclass": true,
-    "filter_text": "ddr_",
+    "filter_text": "ddr2",
     "group_by_constraint": false,
     "group_by_netclass": false,
     "show_unconnected_nets": false,

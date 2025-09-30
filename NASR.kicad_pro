@@ -154,7 +154,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.09,
+        "min_clearance": 0.073,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.0,
         "min_groove_width": 0.0,
@@ -1697,7 +1697,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "NASR.net",
-      "plot": "fabout/nasr-m-r-D.0.9.4-grb-20250927.3/",
+      "plot": "fabout/nasr-m-r-D.0.9.4-grb-48e32f4c-20250928-fiducials1/",
       "pos_files": "fabout/placement-27.3/",
       "specctra_dsn": "",
       "step": "",
@@ -1708,7 +1708,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "fabout\\nasr-m-r-D.0.9.4-smd\\NASR-d.0.9.4-short.bom.csv",
+    "bom_export_filename": "fabout\\NASR-d.0.9.4.bom.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
