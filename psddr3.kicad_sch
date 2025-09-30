@@ -26922,7 +26922,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C338031"
+		(property "JLCPCB Part #" "C285010"
 			(at 168.91 148.59 0)
 			(effects
 				(font
@@ -26931,7 +26931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "C0603X5R1A103KT00NN"
+		(property "Part" "0201B103K250NT"
 			(at 168.91 148.59 0)
 			(effects
 				(font
@@ -27343,7 +27343,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C338031"
+		(property "JLCPCB Part #" "C285010"
 			(at 381 147.32 0)
 			(effects
 				(font
@@ -27352,7 +27352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "C0603X5R1A103KT00NN"
+		(property "Part" "0201B103K250NT"
 			(at 381 147.32 0)
 			(effects
 				(font
@@ -28828,7 +28828,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C338031"
+		(property "JLCPCB Part #" "C285010"
 			(at 158.75 148.59 0)
 			(effects
 				(font
@@ -28837,7 +28837,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "C0603X5R1A103KT00NN"
+		(property "Part" "0201B103K250NT"
 			(at 158.75 148.59 0)
 			(effects
 				(font
@@ -30048,7 +30048,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C338031"
+		(property "JLCPCB Part #" "C285010"
 			(at 391.16 147.32 0)
 			(effects
 				(font
@@ -30057,7 +30057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "C0603X5R1A103KT00NN"
+		(property "Part" "0201B103K250NT"
 			(at 391.16 147.32 0)
 			(effects
 				(font
@@ -30768,7 +30768,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C338031"
+		(property "JLCPCB Part #" "C285010"
 			(at 370.84 147.32 0)
 			(effects
 				(font
@@ -30777,7 +30777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "C0603X5R1A103KT00NN"
+		(property "Part" "0201B103K250NT"
 			(at 370.84 147.32 0)
 			(effects
 				(font
@@ -30864,7 +30864,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C338031"
+		(property "JLCPCB Part #" "C285010"
 			(at 274.32 149.86 0)
 			(effects
 				(font
@@ -30873,7 +30873,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "C0603X5R1A103KT00NN"
+		(property "Part" "0201B103K250NT"
 			(at 274.32 149.86 0)
 			(effects
 				(font
@@ -30961,7 +30961,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C338031"
+		(property "JLCPCB Part #" "C285010"
 			(at 243.84 147.32 0)
 			(effects
 				(font
@@ -30970,7 +30970,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "C0603X5R1A103KT00NN"
+		(property "Part" "0201B103K250NT"
 			(at 243.84 147.32 0)
 			(effects
 				(font
@@ -32083,7 +32083,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C338031"
+		(property "JLCPCB Part #" "C285010"
 			(at 285.75 149.86 0)
 			(effects
 				(font
@@ -32092,7 +32092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "C0603X5R1A103KT00NN"
+		(property "Part" "0201B103K250NT"
 			(at 285.75 149.86 0)
 			(effects
 				(font
@@ -33680,7 +33680,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C338031"
+		(property "JLCPCB Part #" "C285010"
 			(at 148.59 148.59 0)
 			(effects
 				(font
@@ -33689,7 +33689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "C0603X5R1A103KT00NN"
+		(property "Part" "0201B103K250NT"
 			(at 148.59 148.59 0)
 			(effects
 				(font
@@ -34188,7 +34188,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C338031"
+		(property "JLCPCB Part #" "C285010"
 			(at 127 148.59 0)
 			(effects
 				(font
@@ -34197,7 +34197,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "C0603X5R1A103KT00NN"
+		(property "Part" "0201B103K250NT"
 			(at 127 148.59 0)
 			(effects
 				(font
@@ -34444,7 +34444,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C338031"
+		(property "JLCPCB Part #" "C285010"
 			(at 212.09 147.32 0)
 			(effects
 				(font
@@ -34453,7 +34453,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "C0603X5R1A103KT00NN"
+		(property "Part" "0201B103K250NT"
 			(at 212.09 147.32 0)
 			(effects
 				(font
@@ -34741,7 +34741,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C338031"
+		(property "JLCPCB Part #" "C285010"
 			(at 316.23 149.86 0)
 			(effects
 				(font
@@ -34750,7 +34750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "C0603X5R1A103KT00NN"
+		(property "Part" "0201B103K250NT"
 			(at 316.23 149.86 0)
 			(effects
 				(font
@@ -35062,7 +35062,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C338031"
+		(property "JLCPCB Part #" "C285010"
 			(at 233.68 147.32 0)
 			(effects
 				(font
@@ -35071,7 +35071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "C0603X5R1A103KT00NN"
+		(property "Part" "0201B103K250NT"
 			(at 233.68 147.32 0)
 			(effects
 				(font
@@ -35773,7 +35773,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C338031"
+		(property "JLCPCB Part #" "C285010"
 			(at 306.07 149.86 0)
 			(effects
 				(font
@@ -35782,7 +35782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "C0603X5R1A103KT00NN"
+		(property "Part" "0201B103K250NT"
 			(at 306.07 149.86 0)
 			(effects
 				(font
@@ -35934,7 +35934,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C338031"
+		(property "JLCPCB Part #" "C285010"
 			(at 138.43 148.59 0)
 			(effects
 				(font
@@ -35943,7 +35943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "C0603X5R1A103KT00NN"
+		(property "Part" "0201B103K250NT"
 			(at 138.43 148.59 0)
 			(effects
 				(font
@@ -36994,7 +36994,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C338031"
+		(property "JLCPCB Part #" "C285010"
 			(at 295.91 149.86 0)
 			(effects
 				(font
@@ -37003,7 +37003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "C0603X5R1A103KT00NN"
+		(property "Part" "0201B103K250NT"
 			(at 295.91 149.86 0)
 			(effects
 				(font
@@ -38110,7 +38110,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C338031"
+		(property "JLCPCB Part #" "C285010"
 			(at 359.41 147.32 0)
 			(effects
 				(font
@@ -38119,7 +38119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "C0603X5R1A103KT00NN"
+		(property "Part" "0201B103K250NT"
 			(at 359.41 147.32 0)
 			(effects
 				(font
@@ -38206,7 +38206,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C338031"
+		(property "JLCPCB Part #" "C285010"
 			(at 223.52 147.32 0)
 			(effects
 				(font
@@ -38215,7 +38215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "C0603X5R1A103KT00NN"
+		(property "Part" "0201B103K250NT"
 			(at 223.52 147.32 0)
 			(effects
 				(font
@@ -38678,7 +38678,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C338031"
+		(property "JLCPCB Part #" "C285010"
 			(at 400.05 147.32 0)
 			(effects
 				(font
@@ -38687,7 +38687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "C0603X5R1A103KT00NN"
+		(property "Part" "0201B103K250NT"
 			(at 400.05 147.32 0)
 			(effects
 				(font
@@ -39125,7 +39125,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C338031"
+		(property "JLCPCB Part #" "C285010"
 			(at 254 147.32 0)
 			(effects
 				(font
@@ -39134,7 +39134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "C0603X5R1A103KT00NN"
+		(property "Part" "0201B103K250NT"
 			(at 254 147.32 0)
 			(effects
 				(font

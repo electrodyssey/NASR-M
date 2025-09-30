@@ -25500,7 +25500,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C705933"
+		(property "JLCPCB Part #" "C22772"
 			(at 175.26 22.86 0)
 			(effects
 				(font
@@ -25509,7 +25509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "RT0603DRD0710K2L"
+		(property "Part" "0603WAF1022T5E"
 			(at 175.26 22.86 90)
 			(effects
 				(font
@@ -32384,7 +32384,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C705933"
+		(property "JLCPCB Part #" "C22772"
 			(at 164.465 105.41 0)
 			(effects
 				(font
@@ -32393,7 +32393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "RT0603DRD0710K2L"
+		(property "Part" "0603WAF1022T5E"
 			(at 164.465 105.41 90)
 			(effects
 				(font
