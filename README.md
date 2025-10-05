@@ -14,3 +14,7 @@ Work in progress.
 
 
 ![alt text](https://github.com/electrodyssey/NASR-M/blob/main/lib/img/NASR.png "NASR-M")
+
+![alt text](https://github.com/electrodyssey/NASR-M/blob/main/lib/img/NASR-peripherals.png "Perhipherals map")
+
+
