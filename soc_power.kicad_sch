@@ -15892,7 +15892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "    0412CDMCCDS-3R3MC"
+		(property "Part" "0412CDMCCDS-3R3MC"
 			(at 173.355 76.2 0)
 			(effects
 				(font
@@ -23169,7 +23169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "    0412CDMCCDS-3R3MC"
+		(property "Part" "0412CDMCCDS-3R3MC"
 			(at 173.355 99.06 0)
 			(effects
 				(font
@@ -23521,7 +23521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "    0412CDMCCDS-3R3MC"
+		(property "Part" "0412CDMCCDS-3R3MC"
 			(at 201.295 33.02 0)
 			(effects
 				(font
