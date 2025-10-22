@@ -15910,6 +15910,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alt" "ASPI-0520LR-3R3M-T2"
+			(at 173.355 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8ac003e7-c61f-4107-b108-2fbc2f75d613")
 		)
@@ -23187,6 +23196,15 @@
 				(hide yes)
 			)
 		)
+		(property "Alt" "ASPI-0520LR-3R3M-T2"
+			(at 173.355 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cb8a647b-2e92-4ce5-847d-9573ed9b14e1")
 		)
@@ -23531,6 +23549,15 @@
 			)
 		)
 		(property "Mouser " ""
+			(at 201.295 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alt" "ASPI-0520LR-3R3M-T2"
 			(at 201.295 33.02 90)
 			(effects
 				(font
