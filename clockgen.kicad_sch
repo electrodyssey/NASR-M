@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "NASR-M")
-		(date "2025-10-21")
-		(rev "D 0.9.4")
+		(date "2025-10-22")
+		(rev "D 0.9.5")
 		(company "electrodyssey.net")
 		(comment 1 "Onboard clock generator with optional external synchronization")
 		(comment 2 "(c) Nazim 2025")
@@ -6240,7 +6240,7 @@
 		(uuid "a86b4c5a-f631-4abb-ae24-22247dfaf5c9")
 	)
 	(junction
-		(at 313.69 215.9)
+		(at 326.39 215.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9968685-d55e-45b7-b684-35e757256ce9")
@@ -6486,7 +6486,7 @@
 		(uuid "f19ca839-ccb4-48f6-9d5f-e139b242b784")
 	)
 	(junction
-		(at 313.69 198.12)
+		(at 314.96 198.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f247b87b-193a-405e-87f4-39a67ef5f1ce")
@@ -6735,16 +6735,6 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 215.9) (xy 313.69 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "010eb978-d4ab-4616-8a2f-ea7b1dff2ed9")
-	)
-	(wire
-		(pts
 			(xy 38.1 38.1) (xy 49.53 38.1)
 		)
 		(stroke
@@ -6812,16 +6802,6 @@
 			(type default)
 		)
 		(uuid "07e89c66-2900-4c5b-a2c1-b8097eae9be8")
-	)
-	(wire
-		(pts
-			(xy 302.26 208.28) (xy 302.26 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0834c137-03a9-4ff7-8a3c-f42772044486")
 	)
 	(wire
 		(pts
@@ -7555,7 +7535,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 215.9) (xy 314.96 215.9)
+			(xy 326.39 215.9) (xy 327.66 215.9)
 		)
 		(stroke
 			(width 0)
@@ -7782,6 +7762,16 @@
 			(type default)
 		)
 		(uuid "3e595400-a9a3-4ee4-9ec7-fefb639ff675")
+	)
+	(wire
+		(pts
+			(xy 298.45 215.9) (xy 326.39 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f3ad9f6-02db-4ae8-8004-53816d43aec9")
 	)
 	(wire
 		(pts
@@ -9185,6 +9175,16 @@
 	)
 	(wire
 		(pts
+			(xy 298.45 198.12) (xy 314.96 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "832fa057-27e5-46d2-b95d-4abb1154c363")
+	)
+	(wire
+		(pts
 			(xy 182.88 240.03) (xy 193.04 240.03)
 		)
 		(stroke
@@ -9345,7 +9345,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 196.85) (xy 313.69 198.12)
+			(xy 314.96 196.85) (xy 314.96 198.12)
 		)
 		(stroke
 			(width 0)
@@ -9445,7 +9445,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 198.12) (xy 314.96 198.12)
+			(xy 314.96 198.12) (xy 316.23 198.12)
 		)
 		(stroke
 			(width 0)
@@ -9835,6 +9835,16 @@
 	)
 	(wire
 		(pts
+			(xy 308.61 207.01) (xy 312.42 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4fef8de-2218-46c9-a4b5-a8fa76f407d3")
+	)
+	(wire
+		(pts
 			(xy 259.08 73.66) (xy 259.08 72.39)
 		)
 		(stroke
@@ -9965,7 +9975,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 207.01) (xy 298.45 207.01)
+			(xy 298.45 207.01) (xy 303.53 207.01)
 		)
 		(stroke
 			(width 0)
@@ -10165,16 +10175,6 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 198.12) (xy 313.69 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba86b62a-d3cd-4676-9db6-50aaa12e26b2")
-	)
-	(wire
-		(pts
 			(xy 212.09 266.7) (xy 212.09 267.97)
 		)
 		(stroke
@@ -10355,7 +10355,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 214.63) (xy 313.69 215.9)
+			(xy 326.39 214.63) (xy 326.39 215.9)
 		)
 		(stroke
 			(width 0)
@@ -11485,6 +11485,16 @@
 	)
 	(wire
 		(pts
+			(xy 312.42 208.28) (xy 312.42 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1ca37d5-9c3d-41aa-8e15-47d4bd1cb0ca")
+	)
+	(wire
+		(pts
 			(xy 201.93 261.62) (xy 201.93 267.97)
 		)
 		(stroke
@@ -12144,7 +12154,7 @@
 		(uuid "3fe2db72-ac24-4867-87dd-198adca93146")
 	)
 	(label "DCKEXT_P"
-		(at 303.53 198.12 0)
+		(at 304.8 198.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14498,7 +14508,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 313.69 196.85 0)
+		(at 314.96 196.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14506,7 +14516,7 @@
 		(dnp no)
 		(uuid "123d36be-65ef-4900-ae72-f1568eab782a")
 		(property "Reference" "TP26"
-			(at 315.214 190.754 0)
+			(at 316.484 190.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14515,7 +14525,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 315.214 188.214 0)
+			(at 316.484 188.214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14524,7 +14534,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 318.77 196.85 0)
+			(at 320.04 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14533,7 +14543,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 318.77 196.85 0)
+			(at 320.04 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14542,7 +14552,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 313.69 196.85 0)
+			(at 314.96 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14551,7 +14561,7 @@
 			)
 		)
 		(property "Mouser " ""
-			(at 313.69 196.85 0)
+			(at 314.96 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16196,7 +16206,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 302.26 208.28 0)
+		(at 312.42 208.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16205,7 +16215,7 @@
 		(fields_autoplaced yes)
 		(uuid "26007058-73b3-40e3-b0ec-112a35c93da6")
 		(property "Reference" "#PWR060"
-			(at 302.26 214.63 0)
+			(at 312.42 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16214,7 +16224,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 302.26 213.36 0)
+			(at 312.42 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16222,7 +16232,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 302.26 208.28 0)
+			(at 312.42 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16231,7 +16241,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 302.26 208.28 0)
+			(at 312.42 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16240,7 +16250,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 302.26 208.28 0)
+			(at 312.42 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23378,6 +23388,102 @@
 			(project "NASR"
 				(path "/9a13c8f9-b8a2-41aa-b5bd-813f44236e01/9e585404-97af-4e2a-aa37-2875da9a13db"
 					(reference "#PWR0192")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 306.07 207.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "75ddc717-44d5-40d5-a04d-dec8e411a588")
+		(property "Reference" "R392"
+			(at 307.848 209.804 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0R"
+			(at 308.102 212.344 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 306.07 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 306.07 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 306.07 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C2906974"
+			(at 306.07 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "FRC0603F0000TS"
+			(at 306.07 207.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser " ""
+			(at 306.07 207.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c874f9d6-69b6-44a9-bc5b-a897ee189485")
+		)
+		(pin "2"
+			(uuid "36650219-3010-41a8-9267-e3924de683b7")
+		)
+		(instances
+			(project "NASR"
+				(path "/9a13c8f9-b8a2-41aa-b5bd-813f44236e01/9e585404-97af-4e2a-aa37-2875da9a13db"
+					(reference "R392")
 					(unit 1)
 				)
 			)
@@ -34601,7 +34707,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 313.69 214.63 0)
+		(at 326.39 214.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34609,7 +34715,7 @@
 		(dnp no)
 		(uuid "f63b3dfd-c5ff-44e9-9bd5-ea401b4b1ef2")
 		(property "Reference" "TP27"
-			(at 315.214 208.534 0)
+			(at 327.914 208.534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34618,7 +34724,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 315.214 205.994 0)
+			(at 327.914 205.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34627,7 +34733,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 318.77 214.63 0)
+			(at 331.47 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34636,7 +34742,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 318.77 214.63 0)
+			(at 331.47 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34645,7 +34751,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 313.69 214.63 0)
+			(at 326.39 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34654,7 +34760,7 @@
 			)
 		)
 		(property "Mouser " ""
-			(at 313.69 214.63 0)
+			(at 326.39 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
