@@ -1697,8 +1697,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "NASR.net",
-      "plot": "fabout/nasr-m-20251008/gerber/",
-      "pos_files": "fabout/nasr-m-20251008/",
+      "plot": "fabout/nasr-m-r-D.0.9.5-5368ed0/nasr-m-r-D.0.9.5-grb-5368ed0/",
+      "pos_files": "fabout/nasr-m-r-D.0.9.5-5368ed0/nasr-m-r-D.0.9.5-smd-5368ed0/nasr-m-r-D.0.9.5-smd-all-pos-5368ed0/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -1708,7 +1708,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "fabout\\NASR-d.0.9.4.bom.csv",
+    "bom_export_filename": "fabout\\nasr-m-r-D.0.9.5-5368ed0\\nasr-m-r-D.0.9.5-smd-5368ed0\\NASR-d.0.9.5.full-bom.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -2057,6 +2057,12 @@
           "group_by": false,
           "label": "Alternative",
           "name": "Alternative",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Alt",
+          "name": "Alt",
           "show": false
         }
       ],
