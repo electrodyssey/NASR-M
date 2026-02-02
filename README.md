@@ -14,6 +14,9 @@ Work in progress.
 [PDF schema is in schema-export folder](schema-export/NASR.pdf)
 
 
+[ERRATA] (ERRATA.txt)
+
+
 Version D 0.9.5 0b79528 (commit eba317391af35e6ee1b4c2de4c383aa31be21669) was submitted to production for a first prototype.
 
 The project is distributed under [Permissive OSHW License version 2](cern_ohl_p_v2.txt).

@@ -1,0 +1,5 @@
+
+Issue: No console output on RS-232 port
+Workaround: The TRS3221ECPW RS-232 transceiver won't transmit until FORCEOFF and FORCEON pins are HIGH. 
+Short pins 15(VCC) and 16(*FORCEOFF), place resistors R145, R146.
+
