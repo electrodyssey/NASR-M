@@ -14,7 +14,7 @@ Work in progress.
 [PDF schema is in schema-export folder](schema-export/NASR.pdf)
 
 
-[ERRATA] (ERRATA.txt)
+[Please watch ERRATA.txt for issues discovered during the board bringup](ERRATA.txt)
 
 
 Version D 0.9.5 0b79528 (commit eba317391af35e6ee1b4c2de4c383aa31be21669) was submitted to production for a first prototype.
