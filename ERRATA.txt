@@ -5,3 +5,6 @@ Short pins 15(VCC) and 16(*FORCEOFF), place resistors R145, R146.
 
 Issue: I2C EEPROM U8 SCA & SCL lines are swapped.
 Workaround: either rework or unsolder it
+
+Issue: L4 shall be replaced with an inductor of a greater saturation current, at least 5A.
+Workaround: Replacements - FTC303015D1R5MBCA(C53281631), SMTC303020-1R5MT (C22463870), SPM3020-1R5MA (C7471176), FTC303020D1R5MBCA (C7423317), FTC303018D1R5MBCA (C18724425), YSMC0320H-1R5MB (C41405950)
