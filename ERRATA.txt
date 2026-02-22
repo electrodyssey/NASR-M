@@ -7,4 +7,11 @@ Issue: I2C EEPROM U8 SCA & SCL lines are swapped.
 Workaround: either rework or unsolder it
 
 Issue: L4 shall be replaced with an inductor of a greater saturation current, at least 5A.
-Workaround: Replacements - FTC303015D1R5MBCA(C53281631), SMTC303020-1R5MT (C22463870), SPM3020-1R5MA (C7471176), FTC303020D1R5MBCA (C7423317), FTC303018D1R5MBCA (C18724425), YSMC0320H-1R5MB (C41405950)
+Workaround: Replacements - FTC303015D1R5MBCA(C53281631), SMTC303020-1R5MT (C22463870), SPM3020-1R5MA (C7471176), FTC303020D1R5MBCA (C7423317), FTC303018D1R5MBCA (C18724425), YSMC0320H-1R5MB (C41405950). Replace the R51 resistor with a 22K to enable 6.44A limit.
+
+Issue: The secondary power supply won't start in automatic PWM/PSM mode.
+Workaround: Remove R44 and place R45 to force the PWM mode.
+
+Issue: I forgot to put a transistor switch to light up the LED's on +1V35 and +1V0_SYS power buses.
+Workaround: Remove D15, R17, D13, R64. +3V3_SYS led is enough because it will be lit last.
+
