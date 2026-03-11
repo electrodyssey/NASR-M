@@ -17,3 +17,4 @@ Workaround: Remove D15, R17, D13, R64. +3V3_SYS led is enough because it will be
 
 Issue: The master TCXO (Y3 - ECS-TXO-32CSMV-270-AN-TR) outputs a 0.8V sine which is not enough to drive the PLL chip.
 Workaround: Temporary workaround is rework. The replacements are ASTX-H11-25.000MHZ-T and FT3MHUPM25.0-T1. Future board revision will include one of them.
+Workaround++: Replace R127 with a 1uF capacitor and watch the clipped sine appear on the output pin. AC termination magic!
