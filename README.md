@@ -19,11 +19,16 @@ Work in progress.
 Version D 0.9.5 0b79528 (commit eba317391af35e6ee1b4c2de4c383aa31be21669) was submitted to production for a first prototype.
 
 Things that worked so far:
+
 +power distribution
+
 +base controller (mostly works, but the ethernet circuit isn't soldered in yet). [The Zephyr firmware is here](https://github.com/electrodyssey/NASR-M-ZFW)
+
 +clock generator responds to i2c, configuration is in progress
 
+
 Watch [the blog](https://electrodyssey.net/tag_nasr-m.html) for an immersive soap opera experience.
+
 
 The project is distributed under [Permissive OSHW License version 2](cern_ohl_p_v2.txt).
 
