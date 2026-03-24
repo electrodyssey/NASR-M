@@ -24,7 +24,11 @@ Things that worked so far:
 
 +base controller (mostly works, but the ethernet circuit isn't soldered in yet). [The Zephyr firmware is here](https://github.com/electrodyssey/NASR-M-ZFW)
 
-+clock generator responds to i2c, configuration is in progress
++clock generator is configured with 33.333MHz signal
+
++CPU can run bare metal applications via JTAG
+
++DDR3 subsystem passes Zynq DDR tests with no errors
 
 
 Watch [the blog](https://electrodyssey.net/tag_nasr-m.html) for an immersive soap opera experience.
@@ -32,7 +36,7 @@ Watch [the blog](https://electrodyssey.net/tag_nasr-m.html) for an immersive soa
 
 The project is distributed under [Permissive OSHW License version 2](cern_ohl_p_v2.txt).
 
-![alt text](https://github.com/electrodyssey/NASR-M/blob/main/lib/img/NASR.png "NASR-M")
+![alt text](https://github.com/electrodyssey/NASR-M/blob/main/lib/img/NASR-M_IMG_20260324.jpg "NASR-M")
 
 ![alt text](https://github.com/electrodyssey/NASR-M/blob/main/lib/img/NASR-peripherals.png "Perhipherals map")
 
