@@ -21,3 +21,6 @@ Workaround++: Replace R127 with a 1uF capacitor and watch the clipped sine appea
 
 Issue: R184 connected to PS_MIO1_500 of the SOC is 330Ohm. It looks like a copy-paste error.
 Workaround: replace with a 10k resistor
+
+Issue: SW5 PS Reset button shall be connected to PS_SRST_EXT_1.8 instead of PS_RST_B
+Workaround: should be fixed in a future release
