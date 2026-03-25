@@ -26,4 +26,4 @@ Issue: SW5 PS Reset button shall be connected to PS_SRST_EXT_1.8 instead of PS_R
 Workaround: should be fixed in a future release
 
 Issue: PHY_LED0 must be tied down to ground to enable the internal 1V0 in PS ETH PHY.
-Workaround: Remove DNP flag from R232. Unsolder R271, solder in R272.
+Workaround: Remove DNP flag from R272, mark R271 as DNP. Unsolder R271, solder in R272.
