@@ -27,3 +27,6 @@ Workaround: should be fixed in a future release
 
 Issue: PHY_LED0 must be tied down to ground to enable the internal 1V0 in PS ETH PHY.
 Workaround: Remove DNP flag from R272, mark R271 as DNP. Unsolder R271, solder in R272.
+
+Issue: PHY MDI tracks shall be on an outter layer to achieve a better SI
+Workaround: I'll be fixing that in a new board re-spin
