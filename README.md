@@ -30,6 +30,10 @@ Things that worked so far:
 
 +DDR3 subsystem passes Zynq DDR tests with no errors
 
++PS Ethernet works
+
++Linux boots of SD card
+
 
 Watch [the blog](https://electrodyssey.net/tag_nasr-m.html) for an immersive soap opera experience.
 
