@@ -30,3 +30,10 @@ Workaround: Remove DNP flag from R272, mark R271 as DNP. Unsolder R271, solder i
 
 Issue: PHY MDI tracks shall be on an outter layer to achieve a better SI
 Workaround: I'll be fixing that in a new board re-spin
+
+Issue: R200, R201 DDR termination resistors must be 100Ohm because I'm using 50/100Ohm tracks for DDR
+Workaround: place a 100Ohm resistors
+
+
+Issue: U22 is to close to the J20 PS JTAG connector
+Workaround: U22 shall be moved a few millimeters away from the J20
