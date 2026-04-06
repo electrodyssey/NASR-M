@@ -24379,7 +24379,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "20k"
 			(at 253.365 34.29 0)
 			(effects
 				(font
@@ -24406,7 +24406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 20kΩ 50V 62.5mW Thin Film Resistor ±0.5% ±50ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 251.46 33.02 0)
 			(effects
 				(font
@@ -24415,7 +24415,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C25104"
+		(property "JLCPCB Part #" "C705678"
 			(at 251.46 33.02 0)
 			(effects
 				(font
@@ -24424,7 +24424,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "0402WGF3300TCE"
+		(property "Part" "RT0402DRE0720KL"
 			(at 251.46 33.02 0)
 			(effects
 				(font
