@@ -20,10 +20,10 @@ Workaround: Temporary workaround is rework. The replacements are ASTX-H11-25.000
 Workaround++: Replace R127 with a 1uF capacitor and watch the clipped sine appear on the output pin. AC termination magic! (rev A schema C841050 1uFx10V replacement) 
 
 Issue: R184 connected to PS_MIO1_500 of the SOC is 330Ohm. It looks like a copy-paste error.
-Workaround: replace with a 10k resistor
+Workaround: replace with a 10k resistor (rev A schema change)
 
 Issue: SW5 PS Reset button shall be connected to PS_SRST_EXT_1.8 instead of PS_RST_B
-Workaround: should be fixed in a future release
+Workaround: should be fixed in a future release (rev A schema change)
 
 Issue: PHY_LED0 must be tied down to ground to enable the internal 1V0 in PS ETH PHY.
 Workaround: Remove DNP flag from R272, mark R271 as DNP. Unsolder R271, solder in R272.
