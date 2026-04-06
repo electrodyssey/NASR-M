@@ -4522,6 +4522,12 @@
 		(uuid "81178826-769e-4ac8-b7dc-aeb582dc0dee")
 	)
 	(junction
+		(at 78.74 229.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8717d9a4-f3c1-4da0-8dfa-463b22bcd33a")
+	)
+	(junction
 		(at 307.34 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4741,6 +4747,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 219.71) (xy 107.95 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0695ecf7-3082-4e3b-bdba-e65f5d7d8888")
+	)
+	(wire
+		(pts
 			(xy 345.44 73.66) (xy 345.44 74.93)
 		)
 		(stroke
@@ -4811,16 +4827,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 219.71) (xy 107.95 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13c150fb-b089-4a0f-a92a-d21ea5c7be8f")
-	)
-	(wire
-		(pts
 			(xy 298.45 33.02) (xy 298.45 35.56)
 		)
 		(stroke
@@ -4858,6 +4864,16 @@
 			(type default)
 		)
 		(uuid "1aa354a2-a52e-45a5-9509-c4dec48a1a0c")
+	)
+	(wire
+		(pts
+			(xy 78.74 229.87) (xy 78.74 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b5f340b-3a52-4c53-9582-0e05a9b83285")
 	)
 	(wire
 		(pts
@@ -5391,16 +5407,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 243.84) (xy 107.95 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66025ea9-a4d3-4bc9-97b9-7dcf1b7eb93f")
-	)
-	(wire
-		(pts
 			(xy 345.44 40.64) (xy 344.17 40.64)
 		)
 		(stroke
@@ -5721,7 +5727,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 142.24) (xy 309.88 142.24)
+			(xy 248.92 142.24) (xy 284.48 142.24)
 		)
 		(stroke
 			(width 0)
@@ -5738,6 +5744,16 @@
 			(type default)
 		)
 		(uuid "a804c579-bce1-453c-9329-734d90f2facd")
+	)
+	(wire
+		(pts
+			(xy 78.74 243.84) (xy 107.95 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab158bf8-4a64-4975-a6d0-562496cf5d11")
 	)
 	(wire
 		(pts
@@ -5981,7 +5997,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 139.7) (xy 250.19 142.24)
+			(xy 208.28 139.7) (xy 208.28 142.24)
 		)
 		(stroke
 			(width 0)
@@ -6001,7 +6017,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 149.86) (xy 307.34 149.86)
+			(xy 208.28 149.86) (xy 307.34 149.86)
 		)
 		(stroke
 			(width 0)
@@ -6111,7 +6127,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 147.32) (xy 250.19 149.86)
+			(xy 208.28 147.32) (xy 208.28 149.86)
 		)
 		(stroke
 			(width 0)
@@ -6141,6 +6157,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 219.71) (xy 78.74 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd13f4da-5bc2-4d16-9b53-dd4aa4d09546")
+	)
+	(wire
+		(pts
 			(xy 100.33 48.26) (xy 105.41 48.26)
 		)
 		(stroke
@@ -6158,6 +6184,16 @@
 			(type default)
 		)
 		(uuid "e2836626-e8bf-4370-807d-492419ff972a")
+	)
+	(wire
+		(pts
+			(xy 73.66 229.87) (xy 78.74 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2c505fc-56fe-476f-86a4-5dfec015a912")
 	)
 	(wire
 		(pts
@@ -6208,6 +6244,16 @@
 			(type default)
 		)
 		(uuid "e9cbfd4a-4f23-4e2f-aa8a-5178bcde7b91")
+	)
+	(wire
+		(pts
+			(xy 289.56 142.24) (xy 309.88 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9e27d36-5b91-41b4-a346-edc2163f4e5a")
 	)
 	(wire
 		(pts
@@ -6320,7 +6366,7 @@
 		(uuid "36e378b7-1b51-451c-825d-29162fabf700")
 	)
 	(label "PS_UART_INVALID_B_3.3"
-		(at 287.02 142.24 0)
+		(at 256.54 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6529,6 +6575,17 @@
 		)
 		(uuid "ed25acfd-f98b-411f-bb27-37aab01fd074")
 	)
+	(hierarchical_label "PS_UART_INVALID_B"
+		(shape bidirectional)
+		(at 73.66 229.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "29d9fb39-f2b3-4d70-94fa-31ee8ec47ab4")
+	)
 	(hierarchical_label "UART_MCU{UART2_BUS}"
 		(shape bidirectional)
 		(at 26.67 128.27 0)
@@ -6550,17 +6607,6 @@
 			(justify right)
 		)
 		(uuid "82883a13-692d-4eae-baf4-8b435db70b2d")
-	)
-	(hierarchical_label "PS_UART_INVALID_B"
-		(shape bidirectional)
-		(at 285.75 142.24 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a1f5f64c-44eb-4b22-8f74-f0f0fac70698")
 	)
 	(hierarchical_label "UART_PS{UART2_BUS}"
 		(shape bidirectional)
@@ -8637,7 +8683,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 250.19 144.78 0)
+		(at 208.28 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8646,7 +8692,7 @@
 		(fields_autoplaced yes)
 		(uuid "433df8c4-deaa-476d-9c71-c35108d8c080")
 		(property "Reference" "R146"
-			(at 252.73 143.5099 0)
+			(at 210.82 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8655,7 +8701,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 252.73 146.0499 0)
+			(at 210.82 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8664,7 +8710,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 250.19 144.78 0)
+			(at 208.28 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8673,7 +8719,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 250.19 144.78 0)
+			(at 208.28 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8682,7 +8728,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 250.19 144.78 0)
+			(at 208.28 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8691,7 +8737,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C25744"
-			(at 250.19 144.78 0)
+			(at 208.28 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8700,7 +8746,7 @@
 			)
 		)
 		(property "Part" "0402WGF1002TCE"
-			(at 250.19 144.78 0)
+			(at 208.28 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8709,7 +8755,7 @@
 			)
 		)
 		(property "Mouser " ""
-			(at 250.19 144.78 0)
+			(at 208.28 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11034,7 +11080,7 @@
 	)
 	(symbol
 		(lib_id "GPWR3V3MCU:+3V3MCU")
-		(at 250.19 139.7 0)
+		(at 208.28 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11043,7 +11089,7 @@
 		(fields_autoplaced yes)
 		(uuid "96c28717-a665-48e5-b30d-edbc056099e5")
 		(property "Reference" "#PWR3V3MCU047"
-			(at 250.19 143.51 0)
+			(at 208.28 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11052,7 +11098,7 @@
 			)
 		)
 		(property "Value" "+3V3MCU"
-			(at 250.19 134.62 0)
+			(at 208.28 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11060,7 +11106,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 250.19 139.7 0)
+			(at 208.28 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11069,7 +11115,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 139.7 0)
+			(at 208.28 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11078,7 +11124,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 250.19 139.7 0)
+			(at 208.28 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11180,6 +11226,101 @@
 			(project "NASR"
 				(path "/9a13c8f9-b8a2-41aa-b5bd-813f44236e01/7514f663-2447-40f5-9da9-2cca20702750"
 					(reference "C165")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 287.02 142.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e0d7285-0738-4ebf-9b4d-0b9e8cbed7ad")
+		(property "Reference" "R395"
+			(at 287.02 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 287.02 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 287.02 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 287.02 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 287.02 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25744"
+			(at 287.02 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "0402WGF1002TCE"
+			(at 287.02 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser " ""
+			(at 287.02 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b73fb40b-9df8-4cbf-a637-50b4b5b41c57")
+		)
+		(pin "2"
+			(uuid "30650260-5fa1-4e25-854b-61bcea09fd91")
+		)
+		(instances
+			(project "NASR"
+				(path "/9a13c8f9-b8a2-41aa-b5bd-813f44236e01/7514f663-2447-40f5-9da9-2cca20702750"
+					(reference "R395")
 					(unit 1)
 				)
 			)

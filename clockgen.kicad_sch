@@ -5735,6 +5735,16 @@
 		)
 		(uuid "09245813-2029-47a8-8ebe-20468a6dcdd6")
 	)
+	(text "AC Term. Capacitor!"
+		(exclude_from_sim no)
+		(at 263.906 116.078 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0c724001-4652-4535-ab71-65b0616a3eba")
+	)
 	(text "DCK2 -> clock to external device"
 		(exclude_from_sim no)
 		(at 383.794 124.968 0)
@@ -23182,7 +23192,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "1uFx10V"
 			(at 264.922 122.936 90)
 			(effects
 				(font
@@ -23218,7 +23228,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C2906974"
+		(property "JLCPCB Part #" "C841050"
 			(at 264.16 120.65 0)
 			(effects
 				(font
@@ -23227,7 +23237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "FRC0603F0000TS"
+		(property "Part" ""
 			(at 264.16 120.65 90)
 			(effects
 				(font

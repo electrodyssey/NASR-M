@@ -1,13 +1,13 @@
 
 Issue: No console output on RS-232 port
 Workaround: The TRS3221ECPW RS-232 transceiver won't transmit until FORCEOFF and FORCEON pins are HIGH. 
-Short pins 15(VCC) and 16(*FORCEOFF), place resistors R145, R146.
+Short pins 15(VCC) and 16(*FORCEOFF), place resistors R145, R146. (rev A schema change)
 
 Issue: I2C EEPROM U8 SCA & SCL lines are swapped.
-Workaround: either rework or unsolder it
+Workaround: either rework or unsolder it (rev A schema change)
 
 Issue: L4 shall be replaced with an inductor of a greater saturation current, at least 5A.
-Workaround: Replacements - FTC303015D1R5MBCA(C53281631), SMTC303020-1R5MT (C22463870), SPM3020-1R5MA (C7471176), FTC303020D1R5MBCA (C7423317), FTC303018D1R5MBCA (C18724425), YSMC0320H-1R5MB (C41405950). Replace the R51 resistor with a 22K to enable 6.44A limit.
+Workaround: Replacements - FTC303015D1R5MBCA(C53281631), SMTC303020-1R5MT (C22463870), SPM3020-1R5MA (C7471176), FTC303020D1R5MBCA (C7423317), FTC303018D1R5MBCA (C18724425), YSMC0320H-1R5MB (C41405950). Replace the R51 resistor with a 22K to enable 6.44A limit. (rev A schema change)
 
 Issue: The secondary power supply won't start in automatic PWM/PSM mode.
 Workaround: Remove R44 and place R45 to force the PWM mode.
@@ -17,7 +17,7 @@ Workaround: Remove D15, R17, D13, R64. +3V3_SYS led is enough because it will be
 
 Issue: The master TCXO (Y3 - ECS-TXO-32CSMV-270-AN-TR) outputs a 0.8V sine which is not enough to drive the PLL chip.
 Workaround: Temporary workaround is rework. The replacements are ASTX-H11-25.000MHZ-T and FT3MHUPM25.0-T1. Future board revision will include one of them.
-Workaround++: Replace R127 with a 1uF capacitor and watch the clipped sine appear on the output pin. AC termination magic!
+Workaround++: Replace R127 with a 1uF capacitor and watch the clipped sine appear on the output pin. AC termination magic! (rev A schema C841050 1uFx10V replacement) 
 
 Issue: R184 connected to PS_MIO1_500 of the SOC is 330Ohm. It looks like a copy-paste error.
 Workaround: replace with a 10k resistor

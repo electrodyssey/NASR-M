@@ -15337,7 +15337,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C135227"
+		(property "JLCPCB Part #" "C53281631"
 			(at 201.295 57.15 90)
 			(effects
 				(font
@@ -15346,7 +15346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "SMNR3010-1R5MT"
+		(property "Part" "FTC303015D1R5MBCA"
 			(at 201.295 57.15 90)
 			(effects
 				(font
