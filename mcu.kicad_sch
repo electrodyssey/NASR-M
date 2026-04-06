@@ -15649,7 +15649,7 @@
 		)
 		(uuid "e38906b0-ce85-4154-9f1c-64be5830fbf6")
 	)
-	(label "I2C_MCU_EEP_SCL"
+	(label "I2C_MCU_EEP_SDA"
 		(at 383.54 160.02 0)
 		(effects
 			(font
@@ -15709,7 +15709,7 @@
 		)
 		(uuid "ec1fef72-04ab-4c6b-b079-d8da8814f834")
 	)
-	(label "I2C_MCU_EEP_SDA"
+	(label "I2C_MCU_EEP_SCL"
 		(at 383.54 157.48 0)
 		(effects
 			(font
