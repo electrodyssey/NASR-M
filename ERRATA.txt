@@ -26,13 +26,13 @@ Issue: SW5 PS Reset button shall be connected to PS_SRST_EXT_1.8 instead of PS_R
 Workaround: should be fixed in a future release (rev A schema change)
 
 Issue: PHY_LED0 must be tied down to ground to enable the internal 1V0 in PS ETH PHY.
-Workaround: Remove DNP flag from R272, mark R271 as DNP. Unsolder R271, solder in R272.
+Workaround: Remove DNP flag from R272, mark R271 as DNP. Unsolder R271, solder in R272. (rev A schema change)
 
 Issue: PHY MDI tracks shall be on an outter layer to achieve a better SI
 Workaround: I'll be fixing that in a new board re-spin
 
 Issue: R200, R201 DDR termination resistors must be 100Ohm because I'm using 50/100Ohm tracks for DDR
-Workaround: place a 100Ohm resistors
+Workaround: place a 100Ohm resistors (rev A schma change: 100Ohm; R226, R200, R201)
 
 
 Issue: U22 is to close to the J20 PS JTAG connector
