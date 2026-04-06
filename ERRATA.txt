@@ -13,7 +13,7 @@ Issue: The secondary power supply won't start in automatic PWM/PSM mode.
 Workaround: Remove R44 and place R45 to force the PWM mode. (rev A schema change)
 
 Issue: I forgot to put a transistor switch to light up the LED's on +1V35 and +1V0_SYS power buses.
-Workaround: Remove D15, R17, D13, R64. +3V3_SYS led is enough because it will be lit last.
+Workaround: Remove D15, R17, D13, R64. +3V3_SYS led is enough because it will be lit last. (rev A schema change, redundant led's were removed)
 
 Issue: The master TCXO (Y3 - ECS-TXO-32CSMV-270-AN-TR) outputs a 0.8V sine which is not enough to drive the PLL chip.
 Workaround: Temporary workaround is rework. The replacements are ASTX-H11-25.000MHZ-T and FT3MHUPM25.0-T1. Future board revision will include one of them.
