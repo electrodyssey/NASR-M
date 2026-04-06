@@ -7,13 +7,13 @@
 	(title_block
 		(title "NASR-M")
 		(date "2025-10-22")
-		(rev "D 0.9.5")
+		(rev "D 0.9.8")
 		(company "electrodyssey.net")
 		(comment 1 "Top Level Schema")
 		(comment 2 "(c) Nazim 2025")
 		(comment 3 "Author: Nazim Aghabayov")
 		(comment 4 "SYZYGY Carrier Mainboard")
-		(comment 5 "rel: Fletched Bustard")
+		(comment 5 "rel: Wild Goose")
 	)
 	(lib_symbols
 		(symbol "Device:R_Small"
@@ -690,10 +690,6 @@
 		(uuid "5a95f2f3-023f-4587-9bab-e32ba9a8ca36")
 	)
 	(no_connect
-		(at 205.74 133.35)
-		(uuid "6152bb28-f2cf-4578-89f7-268cd6ac3e52")
-	)
-	(no_connect
 		(at 233.68 33.02)
 		(uuid "bdee2aa9-7ed9-4f51-a880-c7d4565f8310")
 	)
@@ -1158,6 +1154,16 @@
 			(type default)
 		)
 		(uuid "96bf810b-99df-4a22-b220-7d899fab9dc6")
+	)
+	(wire
+		(pts
+			(xy 184.15 133.35) (xy 205.74 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98e4f0e4-66c3-47ad-8378-03b309fe161c")
 	)
 	(bus
 		(pts
@@ -4345,6 +4351,16 @@
 				(justify left)
 			)
 		)
+		(pin "PS_UART_INVALID_B" bidirectional
+			(at 184.15 133.35 0)
+			(uuid "0be2b4b9-fb84-491b-8e79-5506344502e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "NASR"
 				(path "/9a13c8f9-b8a2-41aa-b5bd-813f44236e01"
@@ -4754,7 +4770,7 @@
 				(justify right)
 			)
 		)
-		(pin "PS_UART_INVALID_B" output
+		(pin "PS_UART_INVALID_B" bidirectional
 			(at 205.74 133.35 180)
 			(uuid "c0757cb6-46f1-450a-8d9d-7dba94b92692")
 			(effects

@@ -7,12 +7,12 @@
 	(title_block
 		(title "NASR-M")
 		(date "2025-10-22")
-		(rev "D 0.9.5")
+		(rev "D 0.9.8")
 		(company "electrodyssey.net")
 		(comment 2 "(c) Nazim 2025")
 		(comment 3 "Author: Nazim Aghabayov")
 		(comment 4 "SYZYGY Carrier Mainboard")
-		(comment 5 "rel: Fletched Bustard")
+		(comment 5 "rel: Wild Goose")
 	)
 	(lib_symbols
 		(symbol "CDCLVC1103PW:CDCLVC1103PW"
@@ -14203,7 +14203,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "cd414c17-04c8-45d7-91a1-bc8a3cb779a8")
 		(property "Reference" "R287"
 			(at 313.182 44.196 90)

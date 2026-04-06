@@ -7,13 +7,13 @@
 	(title_block
 		(title "NASR-M")
 		(date "2025-10-22")
-		(rev "D 0.9.5")
+		(rev "D 0.9.8")
 		(company "electrodyssey.net")
 		(comment 1 "JTAG / PS reset / PL reset ")
 		(comment 2 "(c) Nazim 2025")
 		(comment 3 "Author: Nazim Aghabayov")
 		(comment 4 "SYZYGY Carrier Mainboard")
-		(comment 5 "rel: Fletched Bustard")
+		(comment 5 "rel: Wild Goose")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"
@@ -14956,6 +14956,24 @@
 						)
 					)
 				)
+				(pin passive line
+					(at -8.89 -10.16 0)
+					(length 2.54)
+					(name "nTRST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_in line
 					(at 8.89 6.35 180)
 					(length 2.54)
@@ -14975,7 +14993,7 @@
 					)
 				)
 				(pin passive line
-					(at 8.89 -8.89 180)
+					(at 8.89 -10.16 180)
 					(length 2.54)
 					(name "G/+5"
 						(effects
@@ -14993,7 +15011,7 @@
 					)
 				)
 				(pin power_in line
-					(at 8.89 -11.43 180)
+					(at 8.89 -12.7 180)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -15574,7 +15592,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 129.54) (xy 22.86 143.51)
+			(xy 22.86 130.81) (xy 22.86 143.51)
 		)
 		(stroke
 			(width 0)
@@ -15964,7 +15982,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 132.08) (xy 36.83 132.08)
+			(xy 35.56 133.35) (xy 36.83 133.35)
 		)
 		(stroke
 			(width 0)
@@ -15991,6 +16009,16 @@
 			(type default)
 		)
 		(uuid "834e83a9-fd09-4517-8e90-8a38fcc861b3")
+	)
+	(wire
+		(pts
+			(xy 54.61 130.81) (xy 63.5 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83eee966-7b02-4e06-befb-fcf01a9d339d")
 	)
 	(wire
 		(pts
@@ -16644,7 +16672,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 132.08) (xy 35.56 135.89)
+			(xy 35.56 133.35) (xy 35.56 135.89)
 		)
 		(stroke
 			(width 0)
@@ -16694,7 +16722,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 129.54) (xy 22.86 129.54)
+			(xy 36.83 130.81) (xy 22.86 130.81)
 		)
 		(stroke
 			(width 0)
@@ -16791,6 +16819,16 @@
 			(justify left bottom)
 		)
 		(uuid "77f6d369-fd99-4294-9ca0-731328fd0792")
+	)
+	(label "SRST"
+		(at 57.15 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7cb16671-141b-413d-9ee4-3f45bf39aafd")
 	)
 	(label "TMS"
 		(at 45.72 55.88 0)
@@ -17367,7 +17405,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "150"
 			(at 74.168 55.118 90)
 			(effects
 				(font
@@ -17402,7 +17440,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C153111"
+		(property "JLCPCB Part #" "C25082"
 			(at 69.85 55.88 0)
 			(effects
 				(font
@@ -17411,7 +17449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "RM04FTN1000"
+		(property "Part" "0402WGF1500TCE"
 			(at 69.85 55.88 90)
 			(effects
 				(font
@@ -17558,7 +17596,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "150"
 			(at 74.168 60.198 90)
 			(effects
 				(font
@@ -17593,7 +17631,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C153111"
+		(property "JLCPCB Part #" "C25082"
 			(at 69.85 60.96 0)
 			(effects
 				(font
@@ -17602,7 +17640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "RM04FTN1000"
+		(property "Part" "0402WGF1500TCE"
 			(at 69.85 60.96 90)
 			(effects
 				(font
@@ -18109,7 +18147,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "150"
 			(at 84.328 62.738 90)
 			(effects
 				(font
@@ -18144,7 +18182,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C153111"
+		(property "JLCPCB Part #" "C25082"
 			(at 80.01 63.5 0)
 			(effects
 				(font
@@ -18153,7 +18191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "RM04FTN1000"
+		(property "Part" "0402WGF1500TCE"
 			(at 80.01 63.5 90)
 			(effects
 				(font
@@ -18203,7 +18241,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "150"
 			(at 84.074 57.658 90)
 			(effects
 				(font
@@ -18238,7 +18276,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C153111"
+		(property "JLCPCB Part #" "C25082"
 			(at 80.01 58.42 0)
 			(effects
 				(font
@@ -18247,7 +18285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "RM04FTN1000"
+		(property "Part" "0402WGF1500TCE"
 			(at 80.01 58.42 90)
 			(effects
 				(font
@@ -22663,7 +22701,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "150"
 			(at 38.354 206.248 90)
 			(effects
 				(font
@@ -22698,7 +22736,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C153111"
+		(property "JLCPCB Part #" "C25082"
 			(at 38.1 208.28 0)
 			(effects
 				(font
@@ -22707,7 +22745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "RM04FTN1000"
+		(property "Part" "0402WGF1500TCE"
 			(at 38.1 208.28 90)
 			(effects
 				(font
@@ -25973,7 +26011,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "150"
 			(at 77.978 67.818 90)
 			(effects
 				(font
@@ -26008,7 +26046,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C153111"
+		(property "JLCPCB Part #" "C25082"
 			(at 73.66 68.58 0)
 			(effects
 				(font
@@ -26017,7 +26055,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "RM04FTN1000"
+		(property "Part" "0402WGF1500TCE"
 			(at 73.66 68.58 90)
 			(effects
 				(font
@@ -26478,6 +26516,9 @@
 		)
 		(pin "2"
 			(uuid "363403eb-7fd2-4e54-9f9d-cf3dbfc324da")
+		)
+		(pin "9"
+			(uuid "42e7ca1e-0570-4169-868a-575025887546")
 		)
 		(instances
 			(project "NASR"

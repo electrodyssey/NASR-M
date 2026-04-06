@@ -7,13 +7,13 @@
 	(title_block
 		(title "NASR-M")
 		(date "2025-10-22")
-		(rev "D 0.9.5")
+		(rev "D 0.9.8")
 		(company "electrodyssey.net")
 		(comment 1 "Bank 500; QSPI / Boot mode switches / POR")
 		(comment 2 "(c) Nazim 2025")
 		(comment 3 "Author: Nazim Aghabayov")
 		(comment 4 "SYZYGY Carrier Mainboard")
-		(comment 5 "rel: Fletched Bustard")
+		(comment 5 "rel: Wild Goose")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -23391,7 +23391,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "150"
 			(at 111.252 33.02 90)
 			(effects
 				(font
@@ -23426,7 +23426,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C153111"
+		(property "JLCPCB Part #" "C25082"
 			(at 106.68 34.29 0)
 			(effects
 				(font
@@ -23435,7 +23435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "RM04FTN1000"
+		(property "Part" "0402WGF1500TCE"
 			(at 106.68 34.29 90)
 			(effects
 				(font
@@ -24779,7 +24779,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "150"
 			(at 247.142 210.82 90)
 			(effects
 				(font
@@ -24814,7 +24814,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C153111"
+		(property "JLCPCB Part #" "C25082"
 			(at 242.57 212.09 0)
 			(effects
 				(font
@@ -24823,7 +24823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "RM04FTN1000"
+		(property "Part" "0402WGF1500TCE"
 			(at 242.57 212.09 90)
 			(effects
 				(font

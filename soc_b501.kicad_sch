@@ -7,13 +7,13 @@
 	(title_block
 		(title "NASR-M")
 		(date "2025-10-22")
-		(rev "D 0.9.5")
+		(rev "D 0.9.8")
 		(company "electrodyssey.net")
 		(comment 1 "PS I2C tree / RTC")
 		(comment 2 "(c) Nazim 2025")
 		(comment 3 "Author: Nazim Aghabayov")
 		(comment 4 "SYZYGY Carrier Mainboard")
-		(comment 5 "rel: Fletched Bustard")
+		(comment 5 "rel: Wild Goose")
 	)
 	(lib_symbols
 		(symbol "Device:C_Small"
@@ -17442,7 +17442,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "150"
 			(at 117.856 34.798 0)
 			(effects
 				(font
@@ -17477,7 +17477,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C153111"
+		(property "JLCPCB Part #" "C25082"
 			(at 114.3 34.29 0)
 			(effects
 				(font
@@ -17486,7 +17486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "RM04FTN1000"
+		(property "Part" "0402WGF1500TCE"
 			(at 114.3 34.29 90)
 			(effects
 				(font
