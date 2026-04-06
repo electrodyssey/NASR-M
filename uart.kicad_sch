@@ -6552,7 +6552,7 @@
 		(uuid "82883a13-692d-4eae-baf4-8b435db70b2d")
 	)
 	(hierarchical_label "PS_UART_INVALID_B"
-		(shape output)
+		(shape bidirectional)
 		(at 285.75 142.24 180)
 		(effects
 			(font

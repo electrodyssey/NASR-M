@@ -9240,10 +9240,6 @@
 		(uuid "cb05615a-6983-4fda-b892-5d397aff51ee")
 	)
 	(no_connect
-		(at 250.19 129.54)
-		(uuid "ccb941ec-2434-48bb-90de-c7fc4dc9d750")
-	)
-	(no_connect
 		(at 250.19 63.5)
 		(uuid "d2d6dfce-bf78-4164-b61c-377febae3d09")
 	)
@@ -13643,6 +13639,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 129.54) (xy 250.19 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db3fc433-403e-4e9a-acad-28a3dc822be4")
+	)
+	(wire
+		(pts
 			(xy 166.37 190.5) (xy 181.61 190.5)
 		)
 		(stroke
@@ -15866,6 +15872,17 @@
 			(justify right)
 		)
 		(uuid "0849b285-7985-4552-aac8-eeda573d0233")
+	)
+	(hierarchical_label "PS_UART_INVALID_B"
+		(shape bidirectional)
+		(at 251.46 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "08d0f73b-737a-4859-8a7e-bec11ebd336d")
 	)
 	(hierarchical_label "FAN_12V_EN"
 		(shape output)
