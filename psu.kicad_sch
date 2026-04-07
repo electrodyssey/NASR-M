@@ -5573,16 +5573,15 @@
 		)
 		(uuid "70be6fe9-9e5d-4dde-b9e1-22797d599000")
 	)
-	(text "short ATXPSU_ON_I to GND\nto start the PSU\ncircuit is disabled by default\n"
+	(text "R11 turn on ATX by default\n"
 		(exclude_from_sim no)
-		(at 102.362 65.532 0)
+		(at 90.17 64.008 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
 		)
-		(uuid "8e849917-876a-4e78-9d4a-fee8242b7a7b")
+		(uuid "948caf83-2665-47b8-8470-f2bbdc581439")
 	)
 	(text "ATX is OFF\nby default"
 		(exclude_from_sim no)
@@ -22330,7 +22329,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "cb0b1831-94e7-4e99-82ba-924785cecdba")
 		(property "Reference" "R11"
 			(at 74.295 76.835 0)
@@ -22341,8 +22340,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
-			(at 75.692 78.74 0)
+		(property "Value" "10k"
+			(at 74.422 79.248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22377,7 +22376,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C11702"
+		(property "JLCPCB Part #" "C25744"
 			(at 80.01 77.47 0)
 			(effects
 				(font
@@ -22386,7 +22385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "0402WGF1001TCE"
+		(property "Part" "0402WGF1002TCE"
 			(at 80.01 77.47 90)
 			(effects
 				(font
