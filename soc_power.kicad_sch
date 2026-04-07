@@ -7935,17 +7935,6 @@
 		)
 		(uuid "03341e5c-1d1a-45d5-9c03-199c6f3769a2")
 	)
-	(text "0.6A -2A MAX"
-		(exclude_from_sim no)
-		(at 242.824 96.266 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "25dee6fb-7182-4231-ac1e-1d911cf50a6a")
-	)
 	(text "PMIC_EN2\nstarts 1V0\n(first pwr bus)"
 		(exclude_from_sim no)
 		(at 54.61 71.374 0)
@@ -7978,9 +7967,9 @@
 		)
 		(uuid "8439253d-4205-4807-a88f-fd4f0d353b0a")
 	)
-	(text "2.5A"
+	(text "2.5A\nR50 = 47K\nunsolder R50 to get 4.4A"
 		(exclude_from_sim no)
-		(at 268.478 23.622 0)
+		(at 268.732 35.052 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7998,6 +7987,17 @@
 			)
 		)
 		(uuid "a96db5ae-e1a9-4c0f-8d5f-d3c866a4f9ba")
+	)
+	(text "0.2A"
+		(exclude_from_sim no)
+		(at 211.836 112.014 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b43ac415-9ec6-4de0-80a4-b4f685082601")
 	)
 	(text "1.2A"
 		(exclude_from_sim no)
@@ -8021,6 +8021,17 @@
 		)
 		(uuid "bfc541cb-5ada-4348-8e30-0a67286cca4f")
 	)
+	(text "1.2A"
+		(exclude_from_sim no)
+		(at 242.57 98.298 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cdc1271d-8ec1-4ffa-af6b-2d7f82f25bd8")
+	)
 	(text "SOC PWR +3V3_SYS is started (last in seq) [OUT] +1V8 signal\n"
 		(exclude_from_sim no)
 		(at 349.758 19.558 0)
@@ -8031,9 +8042,9 @@
 		)
 		(uuid "d8a5d14b-5569-4788-a119-128cc0e2be20")
 	)
-	(text "2.1A"
+	(text "6.44A MAX\nR51 = 22k"
 		(exclude_from_sim no)
-		(at 313.944 44.45 0)
+		(at 314.96 45.466 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -30288,7 +30299,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "22k"
 			(at 176.53 50.165 0)
 			(effects
 				(font
@@ -30315,7 +30326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 100mW 22kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 173.99 48.895 0)
 			(effects
 				(font
@@ -30324,7 +30335,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C5139555"
+		(property "JLCPCB Part #" "C31850"
 			(at 173.99 48.895 0)
 			(effects
 				(font
@@ -30334,6 +30345,15 @@
 			)
 		)
 		(property "Mouser " ""
+			(at 173.99 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "0603WAF2202T5E"
 			(at 173.99 48.895 0)
 			(effects
 				(font

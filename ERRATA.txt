@@ -1,10 +1,10 @@
 
 Issue: No console output on RS-232 port
 Workaround: The TRS3221ECPW RS-232 transceiver won't transmit until FORCEOFF and FORCEON pins are HIGH. 
-Short pins 15(VCC) and 16(*FORCEOFF), place resistors R145, R146. (rev A schema change)
+Short pins 15(VCC) and 16(*FORCEOFF), place resistors R145, R146. (rev A schema/pcb change)
 
 Issue: I2C EEPROM U8 SCA & SCL lines are swapped.
-Workaround: either rework or unsolder it (rev A schema change)
+Workaround: either rework or unsolder it (rev A schema /pcb change)
 
 Issue: L4 shall be replaced with an inductor of a greater saturation current, at least 5A.
 Workaround: Replacements - FTC303015D1R5MBCA(C53281631), SMTC303020-1R5MT (C22463870), SPM3020-1R5MA (C7471176), FTC303020D1R5MBCA (C7423317), FTC303018D1R5MBCA (C18724425), YSMC0320H-1R5MB (C41405950). Replace the R51 resistor with a 22K to enable 6.44A limit. (rev A schema change)
@@ -29,11 +29,11 @@ Issue: PHY_LED0 must be tied down to ground to enable the internal 1V0 in PS ETH
 Workaround: Remove DNP flag from R272, mark R271 as DNP. Unsolder R271, solder in R272. (rev A schema change)
 
 Issue: PHY MDI tracks shall be on an outter layer to achieve a better SI
-Workaround: I'll be fixing that in a new board re-spin
+Workaround: I'll be fixing that in a new board re-spin   (rev A pcb change)
 
 Issue: R200, R201 DDR termination resistors must be 100Ohm because I'm using 50/100Ohm tracks for DDR
 Workaround: place a 100Ohm resistors (rev A schma change: 100Ohm; R226, R200, R201)
 
 
 Issue: U22 is to close to the J20 PS JTAG connector
-Workaround: U22 shall be moved a few millimeters away from the J20
+Workaround: U22 shall be moved a few millimeters away from the J20  (rev A pcb change)
