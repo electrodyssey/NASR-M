@@ -40,7 +40,7 @@ Watch [the blog](https://electrodyssey.net/tag_nasr-m.html) for an immersive soa
 
 The project is distributed under [Permissive OSHW License version 2](cern_ohl_p_v2.txt).
 
-![board photo](https://github.com/electrodyssey/NASR-M/blob/main/lib/img/NASR-M_IMG_20260324.jpg "NASR-M")
+![board photo](https://github.com/electrodyssey/NASR-M/blob/main/lib/img/NASR-M_IMG_20260415.jpg "NASR-M")
 
 ![Linux boot in console](https://github.com/electrodyssey/NASR-M/blob/main/lib/img/nasr-m-first-sd-boot.png "NASR-M Linux boot")
 
