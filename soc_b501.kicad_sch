@@ -16562,7 +16562,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3b22eaff-d5d1-43e4-b5f8-54dc3eefc4f2")
 		(property "Reference" "R195"
