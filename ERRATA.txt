@@ -37,3 +37,6 @@ Workaround: place a 100Ohm resistors
 
 Issue: U22 is to close to the J20 PS JTAG connector
 Workaround: U22 shall be moved a few millimeters away from the J20
+
+Issue: SOC Bank_33 and Bank_34 SYZYGY Pod to Carrier clock is reversed.
+Workaround: it has to be fixed in rev A.
