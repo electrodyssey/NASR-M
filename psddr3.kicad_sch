@@ -7,13 +7,13 @@
 	(title_block
 		(title "NASR-M")
 		(date "2025-10-22")
-		(rev "D 0.9.5")
+		(rev "D 0.9.8")
 		(company "electrodyssey.net")
 		(comment 1 "32-bit LPDDR3")
 		(comment 2 "(c) Nazim 2025")
 		(comment 3 "Author: Nazim Aghabayov")
 		(comment 4 "SYZYGY Carrier Mainboard")
-		(comment 5 "rel: Fletched Bustard")
+		(comment 5 "rel: Wild Goose")
 	)
 	(lib_symbols
 		(symbol "Device:C_Small"
@@ -28015,7 +28015,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "80.6 1%"
+		(property "Value" "100 1%"
 			(at 17.145 118.11 0)
 			(effects
 				(font
@@ -28051,7 +28051,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C25134"
+		(property "JLCPCB Part #" "C25076"
 			(at 15.24 116.84 0)
 			(effects
 				(font
@@ -28060,7 +28060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "0402WGF806JTCE"
+		(property "Part" "0402WGF1000TCE"
 			(at 15.24 116.84 0)
 			(effects
 				(font
@@ -28925,7 +28925,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C153111"
+		(property "JLCPCB Part #" "C25076"
 			(at 67.31 250.19 0)
 			(effects
 				(font
@@ -28934,7 +28934,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "RM04FTN1000"
+		(property "Part" "0402WGF1000TCE"
 			(at 67.31 250.19 0)
 			(effects
 				(font
@@ -31885,7 +31885,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "80.6 1%"
+		(property "Value" "100 1%"
 			(at 17.145 107.95 0)
 			(effects
 				(font
@@ -31921,7 +31921,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C25134"
+		(property "JLCPCB Part #" "C25076"
 			(at 15.24 106.68 0)
 			(effects
 				(font
@@ -31930,7 +31930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "0402WGF806JTCE"
+		(property "Part" "0402WGF1000TCE"
 			(at 15.24 106.68 0)
 			(effects
 				(font

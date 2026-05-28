@@ -7,11 +7,11 @@
 	(title_block
 		(title "NASR-M")
 		(date "2025-10-22")
-		(rev "D 0.9.5")
+		(rev "D 0.9.8")
 		(company "electrodyssey.net")
 		(comment 2 "(c) Nazim 2025")
 		(comment 3 "Author: Nazim Aghabayov")
-		(comment 5 "rel: Fletched Bustard")
+		(comment 5 "rel: Wild Goose")
 	)
 	(lib_symbols
 		(symbol "Connector:RJ45_RB1-125B8G1A"
@@ -18054,7 +18054,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4aebb02d-468e-46a8-a48c-2443fddcc44e")
 		(property "Reference" "R271"
 			(at 342.9 165.1 90)
@@ -18706,7 +18706,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "6a255b75-56a8-4db2-bc16-c740e98afda1")
 		(property "Reference" "R272"
 			(at 342.9 176.53 90)

@@ -7,13 +7,13 @@
 	(title_block
 		(title "NASR-M")
 		(date "2025-10-22")
-		(rev "D 0.9.5")
+		(rev "D 0.9.8")
 		(company "electrodyssey.net")
 		(comment 1 "USB to SATA converter")
 		(comment 2 "(c) Nazim 2025")
 		(comment 3 "Author: Nazim Aghabayov")
 		(comment 4 "SYZYGY Carrier Mainboard")
-		(comment 5 "rel: Fletched Bustard")
+		(comment 5 "rel: Wild Goose")
 	)
 	(lib_symbols
 		(symbol "292161-3:292161-3"
@@ -6722,6 +6722,24 @@
 						)
 					)
 				)
+				(pin passive line
+					(at -8.89 -10.16 0)
+					(length 2.54)
+					(name "nTRST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_in line
 					(at 8.89 6.35 180)
 					(length 2.54)
@@ -6741,7 +6759,7 @@
 					)
 				)
 				(pin passive line
-					(at 8.89 -8.89 180)
+					(at 8.89 -10.16 180)
 					(length 2.54)
 					(name "G/+5"
 						(effects
@@ -6759,7 +6777,7 @@
 					)
 				)
 				(pin power_in line
-					(at 8.89 -11.43 180)
+					(at 8.89 -12.7 180)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -7631,6 +7649,10 @@
 		(uuid "50f7f1a9-5c7b-46e3-a56a-4d91b52dfa40")
 	)
 	(no_connect
+		(at 73.66 100.33)
+		(uuid "51b3b2b0-ba55-4293-968f-785fd956bf64")
+	)
+	(no_connect
 		(at 35.56 132.08)
 		(uuid "51f664c7-d373-45e9-be0f-12a2d82fc5a2")
 	)
@@ -7669,6 +7691,10 @@
 	(no_connect
 		(at 35.56 129.54)
 		(uuid "6ef036b8-bc9d-4017-af72-94a7597e1a86")
+	)
+	(no_connect
+		(at 55.88 100.33)
+		(uuid "733dfbef-bcd7-4710-884e-accc08311152")
 	)
 	(no_connect
 		(at 69.85 267.97)
@@ -7801,10 +7827,6 @@
 	(no_connect
 		(at 351.79 119.38)
 		(uuid "fd01e977-2542-4129-a012-85357b181730")
-	)
-	(no_connect
-		(at 55.88 99.06)
-		(uuid "fdf7ff6e-991b-4fa3-bac0-529a7b160c69")
 	)
 	(bus_entry
 		(at 138.43 152.4)
@@ -8936,7 +8958,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 101.6) (xy 53.34 101.6)
+			(xy 55.88 102.87) (xy 53.34 102.87)
 		)
 		(stroke
 			(width 0)
@@ -10306,7 +10328,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 101.6) (xy 53.34 104.14)
+			(xy 53.34 102.87) (xy 53.34 104.14)
 		)
 		(stroke
 			(width 0)
@@ -12406,7 +12428,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "150"
 			(at 162.052 116.84 90)
 			(effects
 				(font
@@ -12441,7 +12463,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C153111"
+		(property "JLCPCB Part #" "C25082"
 			(at 157.48 118.11 0)
 			(effects
 				(font
@@ -12450,7 +12472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "RM04FTN1000"
+		(property "Part" "0402WGF1500TCE"
 			(at 157.48 118.11 90)
 			(effects
 				(font
@@ -15015,6 +15037,9 @@
 		(pin "4"
 			(uuid "14d985da-e49a-4318-be07-c5ba0c89c6eb")
 		)
+		(pin "9"
+			(uuid "d914001e-d572-4e71-9ddc-5a1f6dcd5e61")
+		)
 		(instances
 			(project "NASR"
 				(path "/9a13c8f9-b8a2-41aa-b5bd-813f44236e01/87cddaed-83dd-493e-9ff8-2dbed07520fb"
@@ -15173,7 +15198,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "150"
 			(at 163.322 198.12 90)
 			(effects
 				(font
@@ -15208,7 +15233,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C153111"
+		(property "JLCPCB Part #" "C25082"
 			(at 158.75 199.39 0)
 			(effects
 				(font
@@ -15217,7 +15242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "RM04FTN1000"
+		(property "Part" "0402WGF1500TCE"
 			(at 158.75 199.39 90)
 			(effects
 				(font
@@ -15549,7 +15574,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "150"
 			(at 117.602 204.47 90)
 			(effects
 				(font
@@ -15584,7 +15609,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C153111"
+		(property "JLCPCB Part #" "C25082"
 			(at 113.03 205.74 0)
 			(effects
 				(font
@@ -15593,7 +15618,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "RM04FTN1000"
+		(property "Part" "0402WGF1500TCE"
 			(at 113.03 205.74 90)
 			(effects
 				(font
