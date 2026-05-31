@@ -18,6 +18,8 @@ Workaround: Remove D15, R17, D13, R64. +3V3_SYS led is enough because it will be
 Issue: The master TCXO (Y3 - ECS-TXO-32CSMV-270-AN-TR) outputs a 0.8V sine which is not enough to drive the PLL chip.
 Workaround: Temporary workaround is rework. The replacements are ASTX-H11-25.000MHZ-T and FT3MHUPM25.0-T1. Future board revision will include one of them.
 Workaround++: Replace R127 with a 1uF capacitor and watch the clipped sine appear on the output pin. AC termination magic! (rev A schema C841050 1uFx10V replacement) 
+Rev A change: add R71 & R64 to allow a TCXO with ENA input
+
 
 Issue: R184 connected to PS_MIO1_500 of the SOC is 330Ohm. It looks like a copy-paste error.
 Workaround: replace with a 10k resistor (rev A schema change)
@@ -39,4 +41,4 @@ Issue: U22 is to close to the J20 PS JTAG connector
 Workaround: U22 shall be moved a few millimeters away from the J20  (rev A pcb change)
 
 Issue: SOC Bank_33 and Bank_34 SYZYGY Pod to Carrier clock is reversed.
-Workaround: it has to be fixed in rev A.
+Workaround: (rev A pcb change)

@@ -6743,7 +6743,7 @@
 			(uuid "57850987-a8a2-46f5-adf8-84d25dd988f1")
 		)
 		(instances
-			(project ""
+			(project "NASR"
 				(path "/9a13c8f9-b8a2-41aa-b5bd-813f44236e01/f63abcc5-9dff-4ab4-b50f-aa06fd7a3748"
 					(reference "J10")
 					(unit 1)
@@ -10826,7 +10826,7 @@
 			(uuid "77aa3d47-746f-433d-90ec-0ed380d4c19f")
 		)
 		(instances
-			(project ""
+			(project "NASR"
 				(path "/9a13c8f9-b8a2-41aa-b5bd-813f44236e01/f63abcc5-9dff-4ab4-b50f-aa06fd7a3748"
 					(reference "U55")
 					(unit 1)
@@ -11288,7 +11288,7 @@
 			(uuid "6b399560-3715-4929-9dc7-6c37007feeea")
 		)
 		(instances
-			(project ""
+			(project "NASR"
 				(path "/9a13c8f9-b8a2-41aa-b5bd-813f44236e01/f63abcc5-9dff-4ab4-b50f-aa06fd7a3748"
 					(reference "Y6")
 					(unit 1)
@@ -11354,7 +11354,7 @@
 			(uuid "283d03d1-5809-4241-b1a2-6e42142ffa45")
 		)
 		(instances
-			(project ""
+			(project "NASR"
 				(path "/9a13c8f9-b8a2-41aa-b5bd-813f44236e01/f63abcc5-9dff-4ab4-b50f-aa06fd7a3748"
 					(reference "#PWR0483")
 					(unit 1)

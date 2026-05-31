@@ -21003,7 +21003,7 @@
 			(uuid "d0522063-2305-4abc-ade6-b6543d5149b4")
 		)
 		(instances
-			(project ""
+			(project "NASR"
 				(path "/9a13c8f9-b8a2-41aa-b5bd-813f44236e01/411d2694-0bbd-4ab4-b00d-d8b9348c69a9"
 					(reference "SW2")
 					(unit 1)
@@ -28263,7 +28263,7 @@
 			(uuid "4e2328b5-c80b-4119-b95e-642bc9c15bf3")
 		)
 		(instances
-			(project ""
+			(project "NASR"
 				(path "/9a13c8f9-b8a2-41aa-b5bd-813f44236e01/411d2694-0bbd-4ab4-b00d-d8b9348c69a9"
 					(reference "U50")
 					(unit 1)
@@ -28936,7 +28936,7 @@
 			(uuid "b197350e-2f93-40b1-b8cd-0635e8e370e9")
 		)
 		(instances
-			(project ""
+			(project "NASR"
 				(path "/9a13c8f9-b8a2-41aa-b5bd-813f44236e01/411d2694-0bbd-4ab4-b00d-d8b9348c69a9"
 					(reference "#PWR01")
 					(unit 1)

@@ -5835,6 +5835,16 @@
 		)
 		(uuid "7df50793-51db-47c8-8091-5e717a202171")
 	)
+	(text "some oscillators\nuse pin1 as ENA"
+		(exclude_from_sim no)
+		(at 270.256 49.022 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "80a538cb-6c94-4f7d-8f72-bd6c3e78dd68")
+	)
 	(text "clock out 3 -> PS clock"
 		(exclude_from_sim no)
 		(at 380.238 214.884 0)
@@ -6242,6 +6252,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f8e5d06-b006-4dc0-98b1-c420e8349d70")
+	)
+	(junction
+		(at 261.62 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f9f0273-651c-412a-9f5c-5fc66e3c0fce")
 	)
 	(junction
 		(at 49.53 38.1)
@@ -6805,7 +6821,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 36.83) (xy 260.35 36.83)
+			(xy 262.89 36.83) (xy 261.62 36.83)
 		)
 		(stroke
 			(width 0)
@@ -7415,6 +7431,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 45.72) (xy 256.54 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b46d7f0-1766-4080-974e-f504c7cc7d8e")
+	)
+	(wire
+		(pts
 			(xy 231.14 34.29) (xy 243.84 34.29)
 		)
 		(stroke
@@ -7582,6 +7608,16 @@
 			(type default)
 		)
 		(uuid "337deb7a-ff7c-4ebd-ae19-04acd8a1bcc7")
+	)
+	(wire
+		(pts
+			(xy 280.67 53.34) (xy 280.67 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33a44685-b8b5-4317-8bcc-a6ee83d83bd5")
 	)
 	(wire
 		(pts
@@ -10265,6 +10301,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 54.61) (xy 261.62 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcac41d1-9472-461e-9871-4f7038a489e3")
+	)
+	(wire
+		(pts
 			(xy 231.14 41.91) (xy 231.14 44.45)
 		)
 		(stroke
@@ -10685,6 +10731,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 36.83) (xy 261.62 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cee704d9-7d5a-4c89-b508-7d76faca2d31")
+	)
+	(wire
+		(pts
 			(xy 83.82 16.51) (xy 83.82 27.94)
 		)
 		(stroke
@@ -10925,7 +10981,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 36.83) (xy 260.35 39.37)
+			(xy 256.54 36.83) (xy 256.54 40.64)
 		)
 		(stroke
 			(width 0)
@@ -11572,6 +11628,16 @@
 			(type default)
 		)
 		(uuid "f5fc0402-6b47-4f16-80e8-acc79af50aa1")
+	)
+	(wire
+		(pts
+			(xy 261.62 36.83) (xy 256.54 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6256207-f8c4-40e1-a94f-c958b9625f13")
 	)
 	(wire
 		(pts
@@ -13325,7 +13391,7 @@
 			(uuid "d9bb6ebf-3a5a-4853-8daa-b61e0e7a46b2")
 		)
 		(instances
-			(project ""
+			(project "NASR"
 				(path "/9a13c8f9-b8a2-41aa-b5bd-813f44236e01/9e585404-97af-4e2a-aa37-2875da9a13db"
 					(reference "#FLG019")
 					(unit 1)
@@ -14278,7 +14344,7 @@
 			(uuid "2452b3e6-0f8f-4bb3-adf5-37013df37707")
 		)
 		(instances
-			(project ""
+			(project "NASR"
 				(path "/9a13c8f9-b8a2-41aa-b5bd-813f44236e01/9e585404-97af-4e2a-aa37-2875da9a13db"
 					(reference "#FLG021")
 					(unit 1)
@@ -15715,7 +15781,7 @@
 			(uuid "f1761770-2ee2-4d3a-bdc2-8a63f4c8f24f")
 		)
 		(instances
-			(project ""
+			(project "NASR"
 				(path "/9a13c8f9-b8a2-41aa-b5bd-813f44236e01/9e585404-97af-4e2a-aa37-2875da9a13db"
 					(reference "J16")
 					(unit 1)
@@ -19032,6 +19098,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 256.54 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "420d1ebc-fe46-4812-ba44-b2ae77ebfcb1")
+		(property "Reference" "R71"
+			(at 254.254 38.608 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 254.254 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 256.54 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 256.54 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C17168"
+			(at 256.54 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "0402WGF0000TCE"
+			(at 256.54 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser " ""
+			(at 256.54 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68372af9-1014-4bf6-af89-e71870132b9e")
+		)
+		(pin "2"
+			(uuid "5a28f8c0-db89-45a9-8868-824e9d8042a2")
+		)
+		(instances
+			(project "NASR"
+				(path "/9a13c8f9-b8a2-41aa-b5bd-813f44236e01/9e585404-97af-4e2a-aa37-2875da9a13db"
+					(reference "R71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "GPWR3V3MCU:+3V3MCU")
 		(at 121.92 19.05 0)
 		(unit 1)
@@ -19861,7 +20021,7 @@
 			(uuid "15aae1da-a03d-4980-b967-616aaca0dcf6")
 		)
 		(instances
-			(project ""
+			(project "NASR"
 				(path "/9a13c8f9-b8a2-41aa-b5bd-813f44236e01/9e585404-97af-4e2a-aa37-2875da9a13db"
 					(reference "#FLG020")
 					(unit 1)
@@ -20895,6 +21055,72 @@
 			(project "NASR"
 				(path "/9a13c8f9-b8a2-41aa-b5bd-813f44236e01/9e585404-97af-4e2a-aa37-2875da9a13db"
 					(reference "#PWR0189")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GPWR3V3MCU:+3V3MCU")
+		(at 280.67 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59e30500-26ad-4fee-b779-c561c1a7b4f8")
+		(property "Reference" "#PWR3V3MCU082"
+			(at 280.67 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_CLK_VCC"
+			(at 281.94 44.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 280.67 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 280.67 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 280.67 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5fe9cf30-5054-4a14-ab55-79d6dcb95f12")
+		)
+		(instances
+			(project "NASR"
+				(path "/9a13c8f9-b8a2-41aa-b5bd-813f44236e01/9e585404-97af-4e2a-aa37-2875da9a13db"
+					(reference "#PWR3V3MCU082")
 					(unit 1)
 				)
 			)
@@ -25683,6 +25909,103 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 280.67 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "8a93e23a-0efe-4b3d-8caa-d8d2054f17ed")
+		(property "Reference" "R64"
+			(at 283.21 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 283.21 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 280.67 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 280.67 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 280.67 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25744"
+			(at 280.67 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "0402WGF1002TCE"
+			(at 280.67 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser " ""
+			(at 280.67 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a80e7e87-4a04-40d0-b048-0cbcfe3e517e")
+		)
+		(pin "2"
+			(uuid "7cafbf0f-1a9c-46f7-8286-dd323a7030fb")
+		)
+		(instances
+			(project "NASR"
+				(path "/9a13c8f9-b8a2-41aa-b5bd-813f44236e01/9e585404-97af-4e2a-aa37-2875da9a13db"
+					(reference "R64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 60.96 227.33 180)
 		(unit 1)
@@ -26706,7 +27029,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 260.35 39.37 0)
+		(at 256.54 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26715,7 +27038,7 @@
 		(fields_autoplaced yes)
 		(uuid "9fdcbf2b-7f28-4a2b-a765-b267b390478f")
 		(property "Reference" "#PWR0232"
-			(at 260.35 45.72 0)
+			(at 256.54 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26724,7 +27047,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 260.35 44.45 0)
+			(at 256.54 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26732,7 +27055,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 260.35 39.37 0)
+			(at 256.54 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26741,7 +27064,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 39.37 0)
+			(at 256.54 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26750,7 +27073,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 260.35 39.37 0)
+			(at 256.54 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31393,7 +31716,7 @@
 			(uuid "ce77c4cd-a6b2-4b64-9a30-1d74a07a0c4b")
 		)
 		(instances
-			(project ""
+			(project "NASR"
 				(path "/9a13c8f9-b8a2-41aa-b5bd-813f44236e01/9e585404-97af-4e2a-aa37-2875da9a13db"
 					(reference "TR2")
 					(unit 1)

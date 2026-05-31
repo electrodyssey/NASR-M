@@ -3411,7 +3411,7 @@
 			(uuid "54eae286-38de-49c4-b49d-40373ba1821b")
 		)
 		(instances
-			(project ""
+			(project "NASR"
 				(path "/9a13c8f9-b8a2-41aa-b5bd-813f44236e01"
 					(reference "#PWR02")
 					(unit 1)
@@ -3702,7 +3702,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "NASR"
 				(path "/9a13c8f9-b8a2-41aa-b5bd-813f44236e01"
 					(reference "H7")
 					(unit 1)

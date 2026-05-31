@@ -29365,7 +29365,7 @@
 			(uuid "d1953225-507c-49bc-a77a-eef0dfeb4323")
 		)
 		(instances
-			(project ""
+			(project "NASR"
 				(path "/9a13c8f9-b8a2-41aa-b5bd-813f44236e01/d9cda69b-63d2-4ddb-9c21-78b7c385190c"
 					(reference "#PWR0315")
 					(unit 1)
