@@ -18560,16 +18560,6 @@
 		)
 		(uuid "0ab9791a-29e0-41e2-a603-93a4afab2ee1")
 	)
-	(label "P3_CLK_P2C_P"
-		(at 134.62 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0b3634b9-c886-4162-8649-888afa9568d5")
-	)
 	(label "I2C_P3{I2C_BUS}"
 		(at 16.51 46.99 0)
 		(effects
@@ -18689,16 +18679,6 @@
 			(justify left bottom)
 		)
 		(uuid "1dcd2eee-ff0a-4ea0-9b0f-4e1f98a7c095")
-	)
-	(label "P4_CLK_P2C_N"
-		(at 135.89 218.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1e751382-9b5d-48c9-a51c-b99aa4639cfc")
 	)
 	(label "P4_D6_P"
 		(at 135.89 213.36 0)
@@ -18959,6 +18939,16 @@
 			(justify left bottom)
 		)
 		(uuid "3b533682-5b1d-42f3-8129-aa98928ec9a5")
+	)
+	(label "P3_CLK_P2C_N"
+		(at 134.62 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3ca8da25-5e6e-4048-87d5-ecdbb13f28f3")
 	)
 	(label "P4_D3_P"
 		(at 332.74 179.07 0)
@@ -19430,16 +19420,6 @@
 		)
 		(uuid "6c69de17-2b56-418c-9014-f0ab4c3c4118")
 	)
-	(label "P3_CLK_P2C_N"
-		(at 134.62 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6ecc52be-2c95-474e-87b4-4e98b9f99674")
-	)
 	(label "I2C_PSSZG4.I2C_SCL"
 		(at 49.53 195.58 0)
 		(effects
@@ -19449,16 +19429,6 @@
 			(justify left bottom)
 		)
 		(uuid "6fe6801b-6e39-479e-aae6-82e30311cd83")
-	)
-	(label "P4_CLK_P2C_P"
-		(at 135.89 215.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "71f1881f-3617-4bb0-b120-5b1e4f2eb697")
 	)
 	(label "P4_D0_N"
 		(at 135.89 167.64 0)
@@ -19529,6 +19499,16 @@
 			(justify left bottom)
 		)
 		(uuid "7cbd389f-19fc-4f02-9931-165f4fa4ad46")
+	)
+	(label "P4_CLK_P2C_N"
+		(at 135.89 215.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7f1b95b1-74b2-4dba-92d5-ff059f5e6123")
 	)
 	(label "P3_C2P_P"
 		(at 320.04 83.82 0)
@@ -19689,6 +19669,16 @@
 			(justify left bottom)
 		)
 		(uuid "8c32d39f-1384-4710-8d55-7d7dd3c60bab")
+	)
+	(label "P3_CLK_P2C_P"
+		(at 134.62 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c8efa5d-3041-42c8-af9e-10f44be0a6eb")
 	)
 	(label "P3_D1_N"
 		(at 134.62 48.26 0)
@@ -19869,6 +19859,16 @@
 			(justify left bottom)
 		)
 		(uuid "aa5981aa-f4a8-40e3-8ed5-b99c02f42375")
+	)
+	(label "P4_CLK_P2C_P"
+		(at 135.89 218.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aa780f8e-cc7f-4bf2-b5b9-2b5df451d917")
 	)
 	(label "P4_S23"
 		(at 67.31 218.44 0)
