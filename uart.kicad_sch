@@ -6662,7 +6662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100nF 50V X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "50V 100nF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 306.07 54.61 0)
 			(effects
 				(font
@@ -6757,7 +6757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100nF 50V X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "50V 100nF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 290.83 46.99 0)
 			(effects
 				(font
@@ -7261,7 +7261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "25V 100nF X7R ±5% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 95.25 25.4 0)
 			(effects
 				(font
@@ -7358,7 +7358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 330Ω 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 129.54 66.04 0)
 			(effects
 				(font
@@ -7454,7 +7454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 0Ω 75V 100mW Thick Film Resistor ±1% 0603 Chip Resistor - Surface Mount ROHS"
 			(at 351.79 59.69 0)
 			(effects
 				(font
@@ -7551,7 +7551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "25V 100nF X7R ±5% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 74.93 27.94 0)
 			(effects
 				(font
@@ -7912,7 +7912,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 0Ω 75V 100mW Thick Film Resistor ±1% 0603 Chip Resistor - Surface Mount ROHS"
 			(at 368.3 62.23 0)
 			(effects
 				(font
@@ -8188,7 +8188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100nF 50V X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "50V 100nF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 298.45 38.1 0)
 			(effects
 				(font
@@ -8349,7 +8349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 150Ω 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 110.49 243.84 0)
 			(effects
 				(font
@@ -8630,7 +8630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100nF 50V X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "50V 100nF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 298.45 114.3 0)
 			(effects
 				(font
@@ -8727,7 +8727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 208.28 144.78 0)
 			(effects
 				(font
@@ -9335,7 +9335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100nF 50V X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "50V 100nF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 306.07 125.73 0)
 			(effects
 				(font
@@ -9563,7 +9563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 0Ω 75V 100mW Thick Film Resistor ±1% 0603 Chip Resistor - Surface Mount ROHS"
 			(at 120.65 50.8 0)
 			(effects
 				(font
@@ -9950,7 +9950,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 150Ω 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 110.49 219.71 0)
 			(effects
 				(font
@@ -10046,7 +10046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 0Ω 75V 100mW Thick Film Resistor ±1% 0603 Chip Resistor - Surface Mount ROHS"
 			(at 107.95 48.26 0)
 			(effects
 				(font
@@ -10208,7 +10208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 330Ω 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 116.84 66.04 0)
 			(effects
 				(font
@@ -10302,7 +10302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 4.7kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 68.58 48.26 0)
 			(effects
 				(font
@@ -10570,7 +10570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "25V 100nF X7R ±5% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 25.4 242.57 0)
 			(effects
 				(font
@@ -11027,7 +11027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100nF 50V X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "50V 100nF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 306.07 130.81 0)
 			(effects
 				(font
@@ -11189,7 +11189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "35V 1uF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 363.22 113.03 0)
 			(effects
 				(font
@@ -11275,7 +11275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 287.02 142.24 0)
 			(effects
 				(font
@@ -11370,7 +11370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 24kΩ 100mW Thin Film Resistor ±0.1% ±25ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 59.69 60.96 0)
 			(effects
 				(font
@@ -11464,7 +11464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100nF 50V X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "50V 100nF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 306.07 49.53 0)
 			(effects
 				(font
@@ -11560,7 +11560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 0Ω 75V 100mW Thick Film Resistor ±1% 0603 Chip Resistor - Surface Mount ROHS"
 			(at 368.3 138.43 0)
 			(effects
 				(font
@@ -11657,7 +11657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "25V 100nF X7R ±5% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 351.79 113.03 0)
 			(effects
 				(font
@@ -12123,7 +12123,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 0Ω 75V 100mW Thick Film Resistor ±1% 0603 Chip Resistor - Surface Mount ROHS"
 			(at 355.6 135.89 0)
 			(effects
 				(font
@@ -12351,7 +12351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "35V 1uF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 40.64 242.57 0)
 			(effects
 				(font
@@ -12912,7 +12912,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 63.5 71.12 0)
 			(effects
 				(font
@@ -12930,7 +12930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 47kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 63.5 71.12 0)
 			(effects
 				(font
@@ -12939,7 +12939,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C5139555"
+		(property "JLCPCB Part #" "C25792"
 			(at 63.5 71.12 0)
 			(effects
 				(font
@@ -12949,6 +12949,15 @@
 			)
 		)
 		(property "Mouser " ""
+			(at 63.5 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "0402WGF4702TCE"
 			(at 63.5 71.12 0)
 			(effects
 				(font
@@ -13082,7 +13091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "35V 1uF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 363.22 36.83 0)
 			(effects
 				(font
@@ -13170,7 +13179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "25V 100nF X7R ±5% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 351.79 36.83 0)
 			(effects
 				(font
@@ -13531,7 +13540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 10kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 250.19 68.58 0)
 			(effects
 				(font
@@ -13692,7 +13701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100nF 50V X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "50V 100nF X7R ±10% 0805 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
 			(at 290.83 123.19 0)
 			(effects
 				(font
