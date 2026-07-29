@@ -11239,7 +11239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3.3V CMOS SMD Crystal Clock Oscillator"
+		(property "Description" "25MHz ±20ppm 1.62V~3.63V LVCMOS MEMS Oscillator SMD3225-4P ROHS"
 			(at 114.3 214.63 0)
 			(effects
 				(font
@@ -11248,7 +11248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "SX2M25.000M20F30TNN"
+		(property "Part" "SIT8008BI-21-YYS-25.000000"
 			(at 114.3 214.63 0)
 			(effects
 				(font
@@ -11257,7 +11257,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C2901601"
+		(property "JLCPCB Part #" "C17326988"
 			(at 114.3 214.63 0)
 			(effects
 				(font

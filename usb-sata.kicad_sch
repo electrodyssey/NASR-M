@@ -19501,7 +19501,7 @@
 				)
 			)
 		)
-		(property "Value" "PM25LQ010B-SCE"
+		(property "Value" "W25X10CLSNIG"
 			(at 261.62 87.63 0)
 			(effects
 				(font
@@ -19545,7 +19545,16 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C411812"
+		(property "JLCPCB Part #" "C164120"
+			(at 261.62 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "W25X10CLSNIG-TR"
 			(at 261.62 100.33 0)
 			(effects
 				(font

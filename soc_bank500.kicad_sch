@@ -26216,7 +26216,7 @@
 				)
 			)
 		)
-		(property "Value" "S25FL128SAGMFI000"
+		(property "Value" "S25FL128SAGMFIR00"
 			(at 141.605 93.98 0)
 			(effects
 				(font
@@ -26244,7 +26244,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "128Mbit 133MHz 2.7V~3.6V SPI NOR Flash, uniform 64-KB sectors, RESET# and VIO, SOIC-16-300mil ROHS"
 			(at 120.65 100.33 0)
 			(effects
 				(font
@@ -26253,7 +26253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "S25FL128SAGMFI000"
+		(property "Part" "S25FL128SAGMFIR00"
 			(at 120.65 100.33 0)
 			(effects
 				(font
@@ -26262,7 +26262,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C393875"
+		(property "JLCPCB Part #" "C2959323"
 			(at 120.65 100.33 0)
 			(effects
 				(font
