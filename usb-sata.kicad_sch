@@ -11143,7 +11143,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "098f3abe-1142-46ed-91b4-c7113d2486bf")
 		(property "Reference" "J28"

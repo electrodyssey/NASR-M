@@ -17112,7 +17112,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "168c91fd-79cc-4493-b5ef-8babe7de3d53")
 		(property "Reference" "R394"
 			(at 94.234 269.494 90)
@@ -25693,7 +25693,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ba2608a6-98bf-45d8-823f-ab5dba7fa87c")
 		(property "Reference" "R393"
 			(at 94.234 258.064 90)
