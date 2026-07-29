@@ -613,6 +613,128 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "GPWR12VEXT:+12VEXT"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR12VEXT"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+12VEXT"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12VEXT\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12VEXT_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12VEXT_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "+12VEXT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "GPWR3V3EXT:+3V3EXT"
 			(power)
 			(pin_names
@@ -15147,6 +15269,12 @@
 		(uuid "86341449-bb1e-4719-a455-c11cb2d0b4ce")
 	)
 	(junction
+		(at 363.22 214.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "913184ad-f91d-411c-9244-a69994c7e698")
+	)
+	(junction
 		(at 327.66 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15169,6 +15297,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ede6e844-7b5c-41c8-8d0c-bb3965259e81")
+	)
+	(junction
+		(at 341.63 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f839f68d-80ee-459f-aeee-871412689aaf")
 	)
 	(no_connect
 		(at 71.12 271.78)
@@ -15249,10 +15383,6 @@
 	(no_connect
 		(at 134.62 177.8)
 		(uuid "8b3702c5-ab99-4069-99ca-b4b844551616")
-	)
-	(no_connect
-		(at 331.47 214.63)
-		(uuid "90b89f58-6400-4ca2-83d6-95632a393814")
 	)
 	(no_connect
 		(at 76.2 165.1)
@@ -15353,10 +15483,6 @@
 	(no_connect
 		(at 74.93 66.04)
 		(uuid "db2831bf-4b41-4a10-99ef-e70e78710ad1")
-	)
-	(no_connect
-		(at 304.8 88.9)
-		(uuid "dbe29242-97d1-4548-b177-59098525685f")
 	)
 	(no_connect
 		(at 248.92 271.78)
@@ -15769,6 +15895,16 @@
 			(type default)
 		)
 		(uuid "11b1c3b0-588f-4bd2-9086-455dc78233a4")
+	)
+	(wire
+		(pts
+			(xy 363.22 214.63) (xy 363.22 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11b4a9fb-c659-4dcc-a985-39b8bc36c56a")
 	)
 	(wire
 		(pts
@@ -16760,6 +16896,16 @@
 		)
 		(uuid "6511e61d-e0e3-41ca-a120-7db2b87b02a9")
 	)
+	(wire
+		(pts
+			(xy 331.47 214.63) (xy 363.22 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "667bf93f-543e-4ecd-b3fb-0ddcfe424334")
+	)
 	(bus
 		(pts
 			(xy 16.51 52.07) (xy 16.51 53.34)
@@ -17222,6 +17368,16 @@
 	)
 	(wire
 		(pts
+			(xy 341.63 86.36) (xy 341.63 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97f533e0-53b2-4959-88a5-585cba7fcdda")
+	)
+	(wire
+		(pts
 			(xy 191.77 55.88) (xy 204.47 55.88)
 		)
 		(stroke
@@ -17349,6 +17505,16 @@
 			(type default)
 		)
 		(uuid "a177d7ef-33fd-4a2a-af51-f6e73cf85722")
+	)
+	(wire
+		(pts
+			(xy 341.63 90.17) (xy 341.63 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a19d7462-870d-4253-8e3b-1548cd0bca55")
 	)
 	(wire
 		(pts
@@ -17622,6 +17788,16 @@
 	)
 	(wire
 		(pts
+			(xy 363.22 224.79) (xy 363.22 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf45426a-18c7-4ce7-a785-b5e5442c15f7")
+	)
+	(wire
+		(pts
 			(xy 191.77 73.66) (xy 204.47 73.66)
 		)
 		(stroke
@@ -17669,6 +17845,16 @@
 			(type default)
 		)
 		(uuid "c35ad711-c922-4ced-b9d0-25a19f716962")
+	)
+	(wire
+		(pts
+			(xy 341.63 88.9) (xy 304.8 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c50feed1-90cc-45d5-a039-74381961a6a7")
 	)
 	(wire
 		(pts
@@ -17959,6 +18145,16 @@
 			(type default)
 		)
 		(uuid "ddbd0cdb-1b6f-4804-a3a1-0a3112869c3d")
+	)
+	(wire
+		(pts
+			(xy 363.22 214.63) (xy 363.22 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dec56da4-13f1-4ac3-9e1f-db0f660f5d9d")
 	)
 	(wire
 		(pts
@@ -18409,6 +18605,16 @@
 			(type default)
 		)
 		(uuid "f9a7080e-a5ea-448a-9221-e5332e627ce7")
+	)
+	(wire
+		(pts
+			(xy 341.63 99.06) (xy 341.63 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa7b2646-af83-4bb8-af1f-880ffc9180c8")
 	)
 	(wire
 		(pts
@@ -21217,6 +21423,102 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 341.63 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "16606f4d-e9e7-46be-b7b9-4d8e4cbd02ab")
+		(property "Reference" "C430"
+			(at 345.44 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uFx16V"
+			(at 345.186 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-6032-15_Kemet-U"
+			(at 342.5952 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 341.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+125℃ 16V 22uF 350mΩ ±10% 2312 Tantalum Capacitors ROHS"
+			(at 341.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "TR3C226K016C0350"
+			(at 341.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1954274"
+			(at 341.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser " ""
+			(at 341.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "93e79121-d5c2-4d5b-8b8e-3fabfa28b273")
+		)
+		(pin "1"
+			(uuid "9b677870-d619-4ce3-b323-80a5ff904755")
+		)
+		(instances
+			(project "NASR"
+				(path "/9a13c8f9-b8a2-41aa-b5bd-813f44236e01/bf65c982-fac4-4072-bcee-d1f5f93bda04"
+					(reference "C430")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 254 114.3 0)
 		(unit 1)
@@ -21723,6 +22025,72 @@
 			(project "NASR"
 				(path "/9a13c8f9-b8a2-41aa-b5bd-813f44236e01/bf65c982-fac4-4072-bcee-d1f5f93bda04"
 					(reference "R334")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GPWR12VEXT:+12VEXT")
+		(at 363.22 212.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f27ee6b-4570-4a10-be96-4b1c0694dee7")
+		(property "Reference" "#PWR12VEXT06"
+			(at 363.22 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12VEXT"
+			(at 363.22 207.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 363.22 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 363.22 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 363.22 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "015a54d0-8196-4e8f-aff2-e91b92278863")
+		)
+		(instances
+			(project "NASR"
+				(path "/9a13c8f9-b8a2-41aa-b5bd-813f44236e01/bf65c982-fac4-4072-bcee-d1f5f93bda04"
+					(reference "#PWR12VEXT06")
 					(unit 1)
 				)
 			)
@@ -24040,6 +24408,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 363.22 224.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ababc91-eac7-46e4-93a6-fef0863fb46f")
+		(property "Reference" "#PWR0109"
+			(at 363.22 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 363.22 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 363.22 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 363.22 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 363.22 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3982d3a0-1833-43bb-b3b1-1a5976c47f5e")
+		)
+		(instances
+			(project "NASR"
+				(path "/9a13c8f9-b8a2-41aa-b5bd-813f44236e01/bf65c982-fac4-4072-bcee-d1f5f93bda04"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 373.38 102.87 270)
 		(unit 1)
@@ -25764,6 +26198,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 341.63 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a6ed2b4-2268-456b-9f88-b5e0e13da4e1")
+		(property "Reference" "#PWR062"
+			(at 341.63 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 341.63 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 341.63 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 341.63 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 341.63 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79c46bea-b742-4201-b792-ccc287b28825")
+		)
+		(instances
+			(project "NASR"
+				(path "/9a13c8f9-b8a2-41aa-b5bd-813f44236e01/bf65c982-fac4-4072-bcee-d1f5f93bda04"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 346.71 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27403,6 +27903,72 @@
 			(project "NASR"
 				(path "/9a13c8f9-b8a2-41aa-b5bd-813f44236e01/bf65c982-fac4-4072-bcee-d1f5f93bda04"
 					(reference "C402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GPWR12VEXT:+12VEXT")
+		(at 341.63 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ec7b39b-2067-4696-942b-98be21249fe3")
+		(property "Reference" "#PWR12VEXT07"
+			(at 341.63 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12VEXT"
+			(at 341.63 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 341.63 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 341.63 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 341.63 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45b92b96-4b02-4386-8048-7afaf2f574c3")
+		)
+		(instances
+			(project "NASR"
+				(path "/9a13c8f9-b8a2-41aa-b5bd-813f44236e01/bf65c982-fac4-4072-bcee-d1f5f93bda04"
+					(reference "#PWR12VEXT07")
 					(unit 1)
 				)
 			)
@@ -31220,6 +31786,102 @@
 			(project "NASR"
 				(path "/9a13c8f9-b8a2-41aa-b5bd-813f44236e01/bf65c982-fac4-4072-bcee-d1f5f93bda04"
 					(reference "C404")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 363.22 219.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ed2c5483-a6d2-445b-bcce-0d4a18b00dd9")
+		(property "Reference" "C431"
+			(at 367.03 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uFx16V"
+			(at 366.776 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-6032-15_Kemet-U"
+			(at 364.1852 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 363.22 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+125℃ 16V 22uF 350mΩ ±10% 2312 Tantalum Capacitors ROHS"
+			(at 363.22 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "TR3C226K016C0350"
+			(at 363.22 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1954274"
+			(at 363.22 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser " ""
+			(at 363.22 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ab1144d9-c58b-4643-b34d-4a8b62490148")
+		)
+		(pin "1"
+			(uuid "08cbef46-7a52-4a56-918d-0ed23021ed3f")
+		)
+		(instances
+			(project "NASR"
+				(path "/9a13c8f9-b8a2-41aa-b5bd-813f44236e01/bf65c982-fac4-4072-bcee-d1f5f93bda04"
+					(reference "C431")
 					(unit 1)
 				)
 			)
