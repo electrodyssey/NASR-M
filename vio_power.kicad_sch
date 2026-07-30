@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "NASR-M")
-		(date "2025-10-22")
-		(rev "D 0.9.8")
+		(date "2026-07-30")
+		(rev "D 0.9.9")
 		(company "electrodyssey.net")
 		(comment 1 "Variable power supply for SYZYGY ports")
 		(comment 2 "(c) Nazim 2025")
@@ -3344,6 +3344,18 @@
 		(uuid "43addd4b-4c7f-474e-9fa1-d34b60396a31")
 	)
 	(junction
+		(at 341.63 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49e598af-42a3-4dfe-a286-f533c9297413")
+	)
+	(junction
+		(at 330.2 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ae6ffe1-edd3-4e5f-bfcb-409d26e81951")
+	)
+	(junction
 		(at 67.31 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3468,6 +3480,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d166f422-c3c4-4e98-9933-cf5dc4b3be1f")
+	)
+	(junction
+		(at 327.66 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d330c6da-6d3e-4b25-81f5-e91809cd37c7")
+	)
+	(junction
+		(at 327.66 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d34ce484-1205-46ed-be37-94a0f8ce69a4")
 	)
 	(junction
 		(at 85.09 271.78)
@@ -3605,6 +3629,16 @@
 	)
 	(wire
 		(pts
+			(xy 327.66 30.48) (xy 327.66 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02db2e8f-0ee6-4d50-a652-422055bc688e")
+	)
+	(wire
+		(pts
 			(xy 160.02 123.19) (xy 177.8 123.19)
 		)
 		(stroke
@@ -3665,6 +3699,16 @@
 	)
 	(wire
 		(pts
+			(xy 330.2 45.72) (xy 341.63 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eaa17f1-5527-4872-a92f-3da4df3f4023")
+	)
+	(wire
+		(pts
 			(xy 198.12 87.63) (xy 194.31 87.63)
 		)
 		(stroke
@@ -3682,6 +3726,16 @@
 			(type default)
 		)
 		(uuid "135d12bb-6d1e-46aa-9ab8-8d86bce2d607")
+	)
+	(wire
+		(pts
+			(xy 316.23 39.37) (xy 316.23 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14401015-4878-4b0c-b60f-51140c14b6d1")
 	)
 	(bus
 		(pts
@@ -3805,6 +3859,16 @@
 	)
 	(wire
 		(pts
+			(xy 330.2 52.07) (xy 330.2 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "283858cd-4654-48f6-9892-6521e964b469")
+	)
+	(wire
+		(pts
 			(xy 36.83 189.23) (xy 36.83 198.12)
 		)
 		(stroke
@@ -3845,7 +3909,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 40.64) (xy 327.66 54.61)
+			(xy 327.66 40.64) (xy 327.66 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3912,6 +3976,16 @@
 			(type default)
 		)
 		(uuid "31e075bf-4986-4b32-add7-e231a29f4909")
+	)
+	(wire
+		(pts
+			(xy 330.2 46.99) (xy 330.2 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "321f2879-5725-4974-89d2-937634e46dd3")
 	)
 	(wire
 		(pts
@@ -4335,6 +4409,16 @@
 	)
 	(wire
 		(pts
+			(xy 316.23 34.29) (xy 316.23 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "644521f6-cef1-46d9-b87f-88dc638a107a")
+	)
+	(wire
+		(pts
 			(xy 101.6 173.99) (xy 114.3 173.99)
 		)
 		(stroke
@@ -4605,6 +4689,16 @@
 	)
 	(wire
 		(pts
+			(xy 327.66 41.91) (xy 327.66 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e633496-208b-4523-8946-746fe1d0fdee")
+	)
+	(wire
+		(pts
 			(xy 269.24 54.61) (xy 279.4 54.61)
 		)
 		(stroke
@@ -4795,7 +4889,7 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 46.99) (xy 341.63 45.72)
+			(xy 341.63 44.45) (xy 341.63 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4955,7 +5049,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 54.61) (xy 341.63 54.61)
+			(xy 327.66 54.61) (xy 330.2 54.61)
 		)
 		(stroke
 			(width 0)
@@ -5135,6 +5229,16 @@
 	)
 	(wire
 		(pts
+			(xy 330.2 54.61) (xy 341.63 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beaa7532-e9f8-4335-b56c-e719bdb1c4d4")
+	)
+	(wire
+		(pts
 			(xy 138.43 128.27) (xy 140.97 128.27)
 		)
 		(stroke
@@ -5212,6 +5316,16 @@
 			(type default)
 		)
 		(uuid "c7c1a3a2-b5a2-43e5-ad24-6a5d4a48fd6a")
+	)
+	(wire
+		(pts
+			(xy 316.23 31.75) (xy 327.66 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cad0327a-48be-4441-a957-4135245170a8")
 	)
 	(wire
 		(pts
@@ -5355,6 +5469,16 @@
 	)
 	(wire
 		(pts
+			(xy 316.23 41.91) (xy 327.66 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1313411-9e84-4fb0-9148-ddf4c7b1b623")
+	)
+	(wire
+		(pts
 			(xy 256.54 107.95) (xy 255.27 107.95)
 		)
 		(stroke
@@ -5422,6 +5546,16 @@
 			(type default)
 		)
 		(uuid "e88e2a07-7ad5-49e4-affe-d9ddcd5d54f1")
+	)
+	(wire
+		(pts
+			(xy 327.66 31.75) (xy 327.66 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e927cd15-6f36-4777-9326-2e5611813769")
 	)
 	(wire
 		(pts
@@ -6626,7 +6760,7 @@
 	)
 	(symbol
 		(lib_id "GPWRVADJ:+VADJ")
-		(at 327.66 33.02 0)
+		(at 327.66 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6634,7 +6768,7 @@
 		(dnp no)
 		(uuid "10ce5339-d0cb-49e8-9630-51b96e370b5f")
 		(property "Reference" "#PWRVADJ05"
-			(at 327.66 36.83 0)
+			(at 327.66 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6643,7 +6777,7 @@
 			)
 		)
 		(property "Value" "+VADJ3"
-			(at 327.66 29.464 0)
+			(at 327.66 26.924 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6651,7 +6785,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 327.66 33.02 0)
+			(at 327.66 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6660,7 +6794,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 327.66 33.02 0)
+			(at 327.66 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6669,7 +6803,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+VADJ\""
-			(at 327.66 33.02 0)
+			(at 327.66 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7425,7 +7559,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "25562744-4439-4e39-8ea4-4fe15fe35fa4")
 		(property "Reference" "R320"
@@ -8479,6 +8613,103 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 330.2 49.53 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "496db980-c6c5-4997-b558-d8b45a2a1f43")
+		(property "Reference" "R397"
+			(at 332.74 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0"
+			(at 332.74 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 330.2 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 330.2 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 0Ω 150V 125mW Thick Film Resistor ±1% ±800ppm/℃ 0805 Chip Resistor - Surface Mount ROHS"
+			(at 330.2 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C17477"
+			(at 330.2 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser " ""
+			(at 330.2 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "0805W8F0000T5E"
+			(at 330.2 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d2d7e809-c486-4b8e-bd5c-3edc9b1b87a8")
+		)
+		(pin "1"
+			(uuid "06099087-eca4-4466-873a-2970935a1dfe")
+		)
+		(instances
+			(project "NASR"
+				(path "/9a13c8f9-b8a2-41aa-b5bd-813f44236e01/06b91cfd-7d02-4b5f-8444-3e1068f8676e"
+					(reference "R397")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 196.85 30.48 0)
 		(unit 1)
@@ -9221,7 +9452,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6dd49324-faf1-4aee-9d1e-0be8bc7a7256")
 		(property "Reference" "R319"
@@ -11086,8 +11317,105 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 316.23 36.83 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aecf52ac-81f3-4563-a614-5ca665de4ac6")
+		(property "Reference" "R396"
+			(at 318.77 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0"
+			(at 318.77 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 316.23 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 316.23 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 0Ω 150V 125mW Thick Film Resistor ±1% ±800ppm/℃ 0805 Chip Resistor - Surface Mount ROHS"
+			(at 316.23 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C17477"
+			(at 316.23 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser " ""
+			(at 316.23 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part" "0805W8F0000T5E"
+			(at 316.23 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9bc7cefe-aea1-4dfb-9634-ca30d2a79460")
+		)
+		(pin "1"
+			(uuid "7d82f306-85f9-48ee-9ff5-1a0e0b9d6e96")
+		)
+		(instances
+			(project "NASR"
+				(path "/9a13c8f9-b8a2-41aa-b5bd-813f44236e01/06b91cfd-7d02-4b5f-8444-3e1068f8676e"
+					(reference "R396")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "GPWRVADJ:+VADJ")
-		(at 341.63 46.99 0)
+		(at 341.63 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11095,7 +11423,7 @@
 		(dnp no)
 		(uuid "b2dc75f6-c202-49ac-b4ce-12b39f3539d0")
 		(property "Reference" "#PWRVADJ06"
-			(at 341.63 50.8 0)
+			(at 341.63 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11104,7 +11432,7 @@
 			)
 		)
 		(property "Value" "+VADJ4"
-			(at 341.63 43.434 0)
+			(at 341.63 40.894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11112,7 +11440,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 341.63 46.99 0)
+			(at 341.63 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11121,7 +11449,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 341.63 46.99 0)
+			(at 341.63 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11130,7 +11458,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+VADJ\""
-			(at 341.63 46.99 0)
+			(at 341.63 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)

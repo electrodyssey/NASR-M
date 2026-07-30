@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "NASR-M")
-		(date "2025-10-22")
-		(rev "D 0.9.8")
+		(date "2026-07-30")
+		(rev "D 0.9.9")
 		(company "electrodyssey.net")
 		(comment 1 "JTAG / PS reset / PL reset ")
 		(comment 2 "(c) Nazim 2025")
