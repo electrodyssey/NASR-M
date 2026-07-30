@@ -15957,7 +15957,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C25900"
+		(property "JLCPCB Part #" "C105871"
 			(at 73.66 69.85 0)
 			(effects
 				(font
@@ -15966,7 +15966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "0402WGF4701TCE"
+		(property "Part" "RC0402FR-074K7L"
 			(at 73.66 69.85 0)
 			(effects
 				(font
@@ -17359,7 +17359,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 10Ω 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 10Ω 50V 62.5mW Thick Film Resistor ±1% ±400ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 238.76 207.01 0)
 			(effects
 				(font
@@ -17368,7 +17368,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C102766"
+		(property "JLCPCB Part #" "C22369459"
 			(at 238.76 207.01 0)
 			(effects
 				(font
@@ -17377,7 +17377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "RTT0210R0FTH"
+		(property "Part" "RCA0210RFLF"
 			(at 238.76 207.01 0)
 			(effects
 				(font
@@ -17974,7 +17974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 10Ω 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 10Ω 50V 62.5mW Thick Film Resistor ±1% ±400ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 238.76 157.48 0)
 			(effects
 				(font
@@ -17983,7 +17983,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C102766"
+		(property "JLCPCB Part #" "C22369459"
 			(at 238.76 157.48 0)
 			(effects
 				(font
@@ -17992,7 +17992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "RTT0210R0FTH"
+		(property "Part" "RCA0210RFLF"
 			(at 238.76 157.48 0)
 			(effects
 				(font
@@ -19424,7 +19424,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C25900"
+		(property "JLCPCB Part #" "C105871"
 			(at 38.1 35.56 0)
 			(effects
 				(font
@@ -19433,7 +19433,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "0402WGF4701TCE"
+		(property "Part" "RC0402FR-074K7L"
 			(at 38.1 35.56 0)
 			(effects
 				(font
@@ -19935,7 +19935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 10Ω 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 10Ω 50V 62.5mW Thick Film Resistor ±1% ±400ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 238.76 162.56 0)
 			(effects
 				(font
@@ -19944,7 +19944,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C102766"
+		(property "JLCPCB Part #" "C22369459"
 			(at 238.76 162.56 0)
 			(effects
 				(font
@@ -19953,7 +19953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "RTT0210R0FTH"
+		(property "Part" "RCA0210RFLF"
 			(at 238.76 162.56 0)
 			(effects
 				(font
@@ -20095,7 +20095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 10Ω 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 10Ω 50V 62.5mW Thick Film Resistor ±1% ±400ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 238.76 252.73 0)
 			(effects
 				(font
@@ -20104,7 +20104,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C102766"
+		(property "JLCPCB Part #" "C22369459"
 			(at 238.76 252.73 0)
 			(effects
 				(font
@@ -20113,7 +20113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "RTT0210R0FTH"
+		(property "Part" "RCA0210RFLF"
 			(at 238.76 252.73 0)
 			(effects
 				(font
@@ -21583,7 +21583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 28.7kΩ 75V 100mW Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 28.7kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 164.465 82.55 0)
 			(effects
 				(font
@@ -21592,7 +21592,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C245945"
+		(property "JLCPCB Part #" "C2998119"
 			(at 164.465 82.55 0)
 			(effects
 				(font
@@ -21601,7 +21601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "RC0603FR-0728K7L"
+		(property "Part" "FRC0603F2872TS"
 			(at 164.465 82.55 90)
 			(effects
 				(font
@@ -21903,7 +21903,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 10Ω 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 10Ω 50V 62.5mW Thick Film Resistor ±1% ±400ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 238.76 247.65 0)
 			(effects
 				(font
@@ -21912,7 +21912,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C102766"
+		(property "JLCPCB Part #" "C22369459"
 			(at 238.76 247.65 0)
 			(effects
 				(font
@@ -21921,7 +21921,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "RTT0210R0FTH"
+		(property "Part" "RCA0210RFLF"
 			(at 238.76 247.65 0)
 			(effects
 				(font
@@ -30142,7 +30142,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C25900"
+		(property "JLCPCB Part #" "C105871"
 			(at 323.85 113.03 0)
 			(effects
 				(font
@@ -30151,7 +30151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "0402WGF4701TCE"
+		(property "Part" "RC0402FR-074K7L"
 			(at 323.85 113.03 0)
 			(effects
 				(font
@@ -33286,7 +33286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 10Ω 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 10Ω 50V 62.5mW Thick Film Resistor ±1% ±400ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 238.76 201.93 0)
 			(effects
 				(font
@@ -33295,7 +33295,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C102766"
+		(property "JLCPCB Part #" "C22369459"
 			(at 238.76 201.93 0)
 			(effects
 				(font
@@ -33304,7 +33304,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "RTT0210R0FTH"
+		(property "Part" "RCA0210RFLF"
 			(at 238.76 201.93 0)
 			(effects
 				(font
@@ -35113,7 +35113,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C25900"
+		(property "JLCPCB Part #" "C105871"
 			(at 200.66 187.96 0)
 			(effects
 				(font
@@ -35122,7 +35122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "0402WGF4701TCE"
+		(property "Part" "RC0402FR-074K7L"
 			(at 200.66 187.96 0)
 			(effects
 				(font

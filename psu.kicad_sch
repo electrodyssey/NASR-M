@@ -19801,7 +19801,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C25900"
+		(property "JLCPCB Part #" "C105871"
 			(at 345.44 132.08 0)
 			(effects
 				(font
@@ -19810,7 +19810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "0402WGF4701TCE"
+		(property "Part" "RC0402FR-074K7L"
 			(at 345.44 132.08 0)
 			(effects
 				(font
@@ -22470,7 +22470,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C25900"
+		(property "JLCPCB Part #" "C105871"
 			(at 345.44 71.12 0)
 			(effects
 				(font
@@ -22479,7 +22479,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "0402WGF4701TCE"
+		(property "Part" "RC0402FR-074K7L"
 			(at 345.44 71.12 0)
 			(effects
 				(font

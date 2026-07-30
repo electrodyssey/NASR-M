@@ -10013,7 +10013,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C25852"
+		(property "JLCPCB Part #" "C132157"
 			(at 226.06 156.21 0)
 			(effects
 				(font
@@ -10022,7 +10022,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "0402WGF1212TCE"
+		(property "Part" "RC0402FR-0712K1L"
 			(at 226.06 156.21 0)
 			(effects
 				(font

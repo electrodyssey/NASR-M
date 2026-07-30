@@ -1983,7 +1983,7 @@
           "group_by": false,
           "label": "Desc",
           "name": "Desc",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -2055,7 +2055,7 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,

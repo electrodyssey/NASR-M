@@ -10810,7 +10810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 2.8kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100V 100mW 2.8kΩ Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 114.3 250.19 0)
 			(effects
 				(font
@@ -10819,7 +10819,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C62741"
+		(property "JLCPCB Part #" "C409906"
 			(at 114.3 250.19 0)
 			(effects
 				(font
@@ -10828,7 +10828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "0402WGF2801TCE"
+		(property "Part" "ERJ2RKF2801X"
 			(at 114.3 250.19 0)
 			(effects
 				(font
@@ -11133,7 +11133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 2.8kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100V 100mW 2.8kΩ Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 114.3 179.07 0)
 			(effects
 				(font
@@ -11142,7 +11142,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C62741"
+		(property "JLCPCB Part #" "C409906"
 			(at 114.3 179.07 0)
 			(effects
 				(font
@@ -11151,7 +11151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part" "0402WGF2801TCE"
+		(property "Part" "ERJ2RKF2801X"
 			(at 114.3 179.07 0)
 			(effects
 				(font
