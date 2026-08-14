@@ -22,7 +22,7 @@ Things that worked so far:
 
 +power distribution
 
-+base controller (mostly works, but the ethernet circuit isn't soldered in yet). [The Zephyr firmware is here](https://github.com/electrodyssey/NASR-M-ZFW)
++base controller (mostly works, but the MCU ethernet circuit isn't soldered in yet). [The Zephyr firmware is here](https://github.com/electrodyssey/NASR-M-ZFW)
 
 +clock generator is configured with 33.333MHz signal
 
@@ -34,6 +34,7 @@ Things that worked so far:
 
 +Linux boots of SD card
 
++PS to PL DMA transfers works!
 
 Watch [the blog](https://electrodyssey.net/tag_nasr-m.html) for an immersive soap opera experience.
 
@@ -43,6 +44,8 @@ The project is distributed under [Permissive OSHW License version 2](cern_ohl_p_
 ![board photo](https://github.com/electrodyssey/NASR-M/blob/main/lib/img/NASR-M_IMG_20260415.jpg "NASR-M")
 
 ![Linux boot in console](https://github.com/electrodyssey/NASR-M/blob/main/lib/img/nasr-m-first-sd-boot.png "NASR-M Linux boot")
+
+![SDR++ receives HF radio stream](https://github.com/electrodyssey/NASR-M/blob/main/lib/img/nasr-m-pod-w-sdrpp.png "NASR-M with an HF receiver pod & SDR++")
 
 ![Peripherals map](https://github.com/electrodyssey/NASR-M/blob/main/lib/img/NASR-peripherals.png "Perhipherals map")
 
