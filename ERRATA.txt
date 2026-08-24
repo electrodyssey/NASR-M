@@ -42,3 +42,6 @@ Workaround: U22 shall be moved a few millimeters away from the J20  (rev A pcb c
 
 Issue: SOC Bank_33 and Bank_34 SYZYGY Pod to Carrier clock is reversed.
 Workaround: (rev A pcb change)
+
+===
+R266, D26, D27, C323 shall be removed - rev. B change
