@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name SYZYGY)(type KiCad)(uri ${KIPRJMOD}/../lib/SYZYGY.pretty)(options "")(descr ""))
-)

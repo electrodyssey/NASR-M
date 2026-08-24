@@ -43,5 +43,21 @@ Workaround: U22 shall be moved a few millimeters away from the J20  (rev A pcb c
 Issue: SOC Bank_33 and Bank_34 SYZYGY Pod to Carrier clock is reversed.
 Workaround: (rev A pcb change)
 
-===
-R266, D26, D27, C323 shall be removed - rev. B change
+Issue: PS ETH PHY (U32 RTL8211F) reset network R266/D26/D27/C323 is broken three ways,
+causing intermittent "no ethernet" cold boots (PHY absent from MDIO until power cycle):
+1) the R266/C323 POR delay is referenced to +1V8_SYS while the PHY core supply (3V3_SYS)
+rises later, so the power-on reset can release before the chip is even powered;
+2) D27 (anode on 1V8) pre-charges C323 to ~1.15V - right at the reset pin Vih (1.2V min
+in the 1.8V I/O domain) - defeating the RC delay and parking the pin in the undefined band
+during strap latch; 3) MIO51 reset pulses from FSBL/u-boot only reach ~0.65V through the
+D26 diode drop - above Vil max 0.5V - so every firmware reset was electrically invalid.
+A bad power-on additionally latches the PHY's internal 1.0V switching regulator OFF
+(DVDD10 measured 0V in the wedged state; datasheet: 3.3V rise must be >=0.5ms, ATX rails
+can be faster). A valid >=10ms reset restarts the internal regulator, so a properly driven
+reset after rails are stable recovers/prevents everything.
+Workaround: remove R266, D26, D27, C323 and wire PHYRSTB (U32.12) directly to the MIO51
+net; the existing FSBL/u-boot MIO51 pulse (20ms low, 50ms settle, after rails stable)
+then performs the reset. Verified: works on every cold boot. (rev B schema change:
+delete the reset network, drive PHYRSTB directly from PS_MIO51; R193 pull-up stays.
+Recommended additionally for rev B: slew-limit the PHY 3.3V feed to >=0.5ms rise
+per RTL8211F datasheet 9.3 Note 1.)
