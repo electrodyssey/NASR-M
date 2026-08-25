@@ -1,0 +1,21 @@
+﻿Part,Manufacturer,Part Number,Quantity,Price ($),Footprint (mm²),Description
+Rfbt,Yageo,RC0603FR-0790K9L,1,0.01,4.68,Resistance: 90.9 kΩ  Tolerance: 1.0%  Power: 100 mW  
+Rfbb,Vishay-Dale,CRCW080520K0FKEA,1,0.01,6.75,Resistance: 20 kΩ  Tolerance: 1.0%  Power: 125 mW  
+Cb_inpflt,Panasonic,EEHZA1H100R,1,0.4567,58.4,Cap: 10 µF  Total Derated Cap: 10 µF  VDC: 50 V  ESR: 120 mΩ  Package: 5x5.8  
+Cf_inpflt,Panasonic,35SVPF82M,1,1.17,106.09,Cap: 82 µF  Total Derated Cap: 82 µF  VDC: 35 V  ESR: 20 mΩ  Package: 8x11.9  
+Rd_inpflt,Panasonic,ERJ-3RQFR39V,1,0.02,4.68,Resistance: 390 mΩ  Tolerance: 1.0%  Power: 100 mW  
+Lf_inpflt,NIC Components,NPI54C2R2MTRF,1,0.09,60.75,L: 2.2 µH  DCR: 30 mΩ  IDC: 2.8 A  
+Dz,ON Semiconductor,BZX84C3V6LT1G,1,0.03,14,Type: SMT  VRWM: 3.6 V  
+Cboot,Taiyo Yuden,EMK107B7104KA-T,1,0.01,4.68,Cap: 100 nF  Total Derated Cap: 100 nF  VDC: 16 V  ESR: 1 mΩ  Package: 0603  
+Rml,Yageo,RC0603FR-075K1L,1,0.01,4.68,Resistance: 5.1 kΩ  Tolerance: 1.0%  Power: 100 mW  
+Cinx,MuRata,GRM188R71H104KA93D,1,0.02,4.68,Cap: 100 nF  Total Derated Cap: 87 nF  VDC: 50 V  ESR: 20 mΩ  Package: 0603  
+Rent,Vishay-Dale,CRCW060318K2FKEA,1,0.01,4.68,Resistance: 18.2 kΩ  Tolerance: 1.0%  Power: 100 mW  
+Renb,Yageo,RC0603FR-075K1L,1,0.01,4.68,Resistance: 5.1 kΩ  Tolerance: 1.0%  Power: 100 mW  
+Cin,TDK,C3216X5R1E476M160AC,1,0.35,10.92,Cap: 47 µF  Total Derated Cap: 2.8 µF  VDC: 25 V  ESR: 2.08 mΩ  Package: 1206  
+Rmh,Yageo,RC0603FR-07330KL,1,0.01,4.68,Resistance: 330 kΩ  Tolerance: 1.0%  Power: 100 mW  
+Rpg,Vishay-Dale,CRCW0603100KFKEA,1,0.01,4.68,Resistance: 100 kΩ  Tolerance: 1.0%  Power: 100 mW  
+Cvcc,Taiyo Yuden,EMK107B7105KA-T,1,0.01,4.68,Cap: 1 µF  Total Derated Cap: 1 µF  VDC: 16 V  ESR: 1 mΩ  Package: 0603  
+L1,NIC Components,NPI52P3R3MTRF,1,0.356,444.63,L: 3.3 µH  DCR: 14 mΩ  IDC: 10 A  
+Cout,MuRata,GRM31CR71A226KE15L,4,0.12,10.92,Cap: 22 µF  Total Derated Cap: 72 µF  VDC: 10 V  ESR: 3.59 mΩ  Package: 1206  
+U1,Texas Instruments,TPS51396ARJER,1,0.37,16,
+Cff,Taiyo Yuden,UMK105CG560JV-F,1,0.01,3,Cap: 56 pF  Total Derated Cap: 56 pF  VDC: 5 V  ESR: 0 Ω  Package: 0402  

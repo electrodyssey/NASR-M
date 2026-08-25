@@ -1,0 +1,18 @@
+(version 8.2)
+
+
+(rule bga_clearance_zone1
+	(condition "A.enclosedByArea('BGAAREA')")
+	(constraint clearance (min 0.09mm))
+	(constraint track_width (min 0.09mm))
+	
+)
+
+
+(rule bga_clearance_zone2
+	(condition "A.enclosedByArea('BGAAREAMMC')")
+	(constraint clearance (min 0.09mm))
+	(constraint track_width (min 0.09mm))
+	
+)
+

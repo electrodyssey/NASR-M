@@ -1,0 +1,17 @@
+﻿Part,Manufacturer,Part Number,Quantity,Price ($),Footprint (mm²),Description
+Cb_inpflt,Nichicon,UUD1H270MCL1GS,2,0.18,79.98,Cap: 27 µF  Total Derated Cap: 54 µF  VDC: 50 V  ESR: 680 mΩ  Package: 6.3x7.7  
+Cf_inpflt,TDK,C3225X7R1H106M250AC,3,0.27,14.7,Cap: 10 µF  Total Derated Cap: 9.5 µF  VDC: 50 V  ESR: 1 mΩ  Package: 1210  
+Rd_inpflt,Panasonic,ERJ-3RSFR10V,1,0.03,4.68,Resistance: 100 mΩ  Tolerance: 1.0%  Power: 100 mW  
+Lf_inpflt,MuRata Toko,DFE252012F-1R0M=P2,1,0.13,10.5,L: 1 µH  DCR: 40 mΩ  IDC: 3.3 A  
+Rpg,Vishay-Dale,CRCW0603100KFKEA,1,0.01,4.68,Resistance: 100 kΩ  Tolerance: 1.0%  Power: 100 mW  
+L1,Coilcraft,MSS1210-153MEB,1,0.81,204.49,L: 15 µH  DCR: 19 mΩ  IDC: 8.7 A  
+Cboot,MuRata,GRM155R71A104KA01D,1,0.01,3,Cap: 100 nF  Total Derated Cap: 100 nF  VDC: 10 V  ESR: 1 mΩ  Package: 0402  
+Cin,TDK,C3225X7R1H106M250AC,3,0.27,14.7,Cap: 10 µF  Total Derated Cap: 12 µF  VDC: 50 V  ESR: 1 mΩ  Package: 1210  
+U1,Texas Instruments,LMR33640ADDAR,1,0.7,55.2,
+Coutx,MuRata,GRM188R71H104KA93D,1,0.02,4.68,Cap: 100 nF  Total Derated Cap: 99 nF  VDC: 50 V  ESR: 20 mΩ  Package: 0603  
+Cout,MuRata,GRM32ER61C476KE15L,3,0.17,14.7,Cap: 47 µF  Total Derated Cap: 78 µF  VDC: 16 V  ESR: 3.04 mΩ  Package: 1210  
+Cvcc,MuRata,GRM188R60J105KA01D,1,0.01,4.68,Cap: 1 µF  Total Derated Cap: 1 µF  VDC: 6.3 V  ESR: 6.07 mΩ  Package: 0  
+Cinx,Taiyo Yuden,UMK212B7224KG-T,1,0.02,6.75,Cap: 220 nF  Total Derated Cap: 220 nF  VDC: 50 V  ESR: 1 mΩ  Package: 0805  
+Rfbt,Vishay-Dale,CRCW0402100KFKED,1,0.01,3,Resistance: 100 kΩ  Tolerance: 1.0%  Power: 63 mW  
+Rfbb,Vishay-Dale,CRCW040218K2FKED,1,0.01,3,Resistance: 18.2 kΩ  Tolerance: 1.0%  Power: 63 mW  
+Cff,MuRata,GRM1555C1H270JA01D,1,0.01,3,Cap: 27 pF  Total Derated Cap: 27 pF  VDC: 50 V  ESR: 1 mΩ  Package: 0402  

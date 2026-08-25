@@ -1,0 +1,17 @@
+﻿Part,Manufacturer,Part Number,Quantity,Price ($),Footprint (mm²),Description
+Rfbt,Yageo,RC0603FR-07196KL,1,0.01,4.68,Resistance: 196 kΩ  Tolerance: 1.0%  Power: 100 mW  
+Rfbb,Vishay-Dale,CRCW080520K0FKEA,1,0.01,6.75,Resistance: 20 kΩ  Tolerance: 1.0%  Power: 125 mW  
+Dz,ON Semiconductor,BZX84C3V6LT1G,1,0.03,14,Type: SMT  VRWM: 3.6 V  
+Cboot,Taiyo Yuden,EMK107B7104KA-T,1,0.01,4.68,Cap: 100 nF  Total Derated Cap: 100 nF  VDC: 16 V  ESR: 1 mΩ  Package: 0603  
+Rml,Yageo,RC0603FR-075K1L,1,0.01,4.68,Resistance: 5.1 kΩ  Tolerance: 1.0%  Power: 100 mW  
+Cinx,MuRata,GRM188R71H104KA93D,1,0.02,4.68,Cap: 100 nF  Total Derated Cap: 87 nF  VDC: 50 V  ESR: 20 mΩ  Package: 0603  
+Rent,Vishay-Dale,CRCW060318K2FKEA,1,0.01,4.68,Resistance: 18.2 kΩ  Tolerance: 1.0%  Power: 100 mW  
+Renb,Yageo,RC0603FR-075K1L,1,0.01,4.68,Resistance: 5.1 kΩ  Tolerance: 1.0%  Power: 100 mW  
+Cin,TDK,C3216X5R1E476M160AC,1,0.35,10.92,Cap: 47 µF  Total Derated Cap: 2.8 µF  VDC: 25 V  ESR: 2.08 mΩ  Package: 1206  
+Rmh,Yageo,RC0603FR-07330KL,1,0.01,4.68,Resistance: 330 kΩ  Tolerance: 1.0%  Power: 100 mW  
+Rpg,Vishay-Dale,CRCW0603100KFKEA,1,0.01,4.68,Resistance: 100 kΩ  Tolerance: 1.0%  Power: 100 mW  
+Cvcc,Taiyo Yuden,EMK107B7105KA-T,1,0.01,4.68,Cap: 1 µF  Total Derated Cap: 1 µF  VDC: 16 V  ESR: 1 mΩ  Package: 0603  
+L1,Coilcraft,XAL6060-472MEB,1,0.82,71.56,L: 4.7 µH  DCR: 13.1 mΩ  IDC: 10.5 A  
+Cout,TDK,CGA9N3X7R1C476M230KB,4,0.67,53.9,Cap: 47 µF  Total Derated Cap: 160 µF  VDC: 16 V  ESR: 3.16 mΩ  Package: 2220_250  
+U1,Texas Instruments,TPS51396ARJER,1,0.37,16,
+Cff,MuRata,GRM0335C1E470JA01D,1,0.01,2.08,Cap: 47 pF  Total Derated Cap: 47 pF  VDC: 25 V  ESR: 0 Ω  Package: 0201  
